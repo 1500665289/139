@@ -1,0 +1,215 @@
+<ThingDefs><List>
+
+	<ThingDef Type="Item" Name="Item_NvWaStone" Parent="ToolBase">
+	<Tags>
+	</Tags>
+	<ThingName>女娲石</ThingName>
+	<MaxStack>1</MaxStack>
+	<ElementKind>None</ElementKind>		
+	<TexPath>Spr\object\object_NvWaStone.png</TexPath>
+	<TexScale>0.25</TexScale>	
+	<Desc>人类之母女娲，捏土造人、炼石补天，并帮人族收伏许多妖魔，自古为神州人民景仰。相传女娲曾为了救自己病故之爱女，将自己万年修为贯注于一颗昔日补天所余的五彩玉石上，自此该灵石就具有特别之力。</Desc>
+	<Beauty>15</Beauty>
+	<Rate>12</Rate>	
+	<Item Kind="Equipment">
+		<PhysicalLables>
+			<li>SmallThing</li>
+		</PhysicalLables>
+		<BeMade>
+			<WorkToMake>2000</WorkToMake>
+			<Quality>12</Quality>
+			<ArtDesc></ArtDesc>
+			<CostItems>
+					<Item name = "Item_SkyStone" count = "10"/>
+					<Item name = "Item_LingCrystal" count = "100"/>
+			</CostItems>			
+		</BeMade>
+		<Equip>
+			<ToolModifier>SysTool_NvWaStone</ToolModifier>		
+		</Equip>
+	</Item>
+	<Ling>
+		<AddionLing>500</AddionLing>
+		<AddionRadius>1</AddionRadius>
+		<AddionFailing>0.1</AddionFailing>
+		<AddionFailRadius>1</AddionFailRadius>
+		
+		<Attenuation>0.1</Attenuation>
+		<Absorption>10</Absorption>
+		<Accommodate>100</Accommodate>
+	</Ling>				
+	</ThingDef>
+
+	<ThingDef Type="Item" Name="Item_ShenNongQuadripod" Parent="ToolBase">
+	<Tags>
+	</Tags>
+	<ThingName>神农鼎</ThingName>
+	<MaxStack>1</MaxStack>
+	<ElementKind>None</ElementKind>		
+	<TexPath>Spr\object\object_ShenNongQuadripod.png</TexPath>
+	<TexScale>0.2</TexScale>	
+	<Desc>古称造世鼎，上古时代神农氏为苍生遍嚐百草，也为后世奠定医学基础。神农昔日炼制百药之古鼎，正因积聚千年来无数灵药之气，据说能炼出天界诸神亦无法轻得之旷世神药，并隐藏其他神祕之力量。</Desc>
+	<Beauty>15</Beauty>
+	<Rate>12</Rate>	
+	<Item Kind="Equipment">
+		<PhysicalLables>
+			<li>SmallThing</li>
+		</PhysicalLables>
+		
+		<BeMade>
+			<WorkToMake>2000</WorkToMake>
+			<Quality>12</Quality>
+			<ArtDesc></ArtDesc>
+			<CostItems>
+					<Item name = "Item_StarEssence" count = "50"/>
+					<Item name = "Item_JinEssence" count = "5"/>
+					<Item name = "Item_MuEssence" count = "5"/>
+					<Item name = "Item_ShuiEssence" count = "5"/>				
+					<Item name = "Item_HuoEssence" count = "5"/>	
+					<Item name = "Item_TuEssence" count = "5"/>	
+					<Item name = "Item_Healroot" count = "200"/>					
+					<Item name = "Item_Water" count = "100"/>
+			</CostItems>			
+		</BeMade>
+		<Equip>
+			<ToolModifier>SysTool_ShenNongQuadripod</ToolModifier>
+		</Equip>
+	</Item>
+	<Ling>
+		<AddionLing>500</AddionLing>
+		<AddionRadius>1</AddionRadius>
+		<AddionFailing>0.1</AddionFailing>
+		<AddionFailRadius>1</AddionFailRadius>
+		
+		<Attenuation>0.1</Attenuation>
+		<Absorption>10</Absorption>
+		<Accommodate>100</Accommodate>
+	</Ling>				
+	</ThingDef>	
+	
+	<ThingDef Type="Item" Name="Item_FuXiGuQin" Parent="ToolBase">
+	<Tags>
+	</Tags>
+	<ThingName>伏羲琴</ThingName>
+	<MaxStack>1</MaxStack>
+	<ElementKind>None</ElementKind>		
+	<TexPath>Spr\object\object_FuXiGuQin.png</TexPath>
+	<TexScale>0.1</TexScale>	
+	<Desc>伏羲琴是伏羲神以玉石加天蚕丝所制出的乐器，形似古筝，呈淡粉色，泛著柔和的白色光芒，其琴音能使人心感到宁静祥和，甚至能够净化已被魔界气息沾染的心灵，是十大上古神器之一，据说拥有能支配万物心灵之神秘力量。</Desc>
+	<Beauty>15</Beauty>
+	<Rate>12</Rate>	
+	<Item Kind="Equipment">
+		<PhysicalLables>
+			<li>SmallThing</li>
+		</PhysicalLables>
+		
+		<BeMade>
+			<WorkToMake>2000</WorkToMake>
+			<Quality>12</Quality>
+			<ArtDesc></ArtDesc>
+			<CostItems>
+					<Item name = "Item_SkyStone" count = "100"/>
+					<Item name = "Item_Cotton" count = "1000"/>
+					<Item name = "Item_LingCrystal" count = "20"/>
+			</CostItems>			
+		</BeMade>
+		<Equip>
+			<ToolModifier>SysTool_FuXiGuQin1</ToolModifier>
+		</Equip>
+	</Item>
+	<Ling>
+		<AddionLing>500</AddionLing>
+		<AddionRadius>1</AddionRadius>
+		<AddionFailing>0.1</AddionFailing>
+		<AddionFailRadius>1</AddionFailRadius>
+		
+		<Attenuation>0.1</Attenuation>
+		<Absorption>10</Absorption>
+		<Accommodate>100</Accommodate>
+	</Ling>				
+	</ThingDef>	
+	
+	<ThingDef Type="Item" Name="Item_KunLunMirror" Parent="ToolBase">
+	<Tags>
+	</Tags>
+	<ThingName>昆仑镜</ThingName>
+	<MaxStack>1</MaxStack>
+	<ElementKind>None</ElementKind>		
+	<TexPath>Spr\object\object_KunLunMirror.png</TexPath>
+	<TexScale>0.16</TexScale>	
+	<Desc>相传昆仑九天之上的昆仑天宫中，有一面神镜，此镜本为西王母所有，其上携刻太乙玄纹，拥有沟通天人两界，破开时间空间间隙的神力。但在一次西王母诞辰的蟠桃大会中，神镜被盗，从此下落不明。</Desc>
+	<Beauty>15</Beauty>
+	<Rate>12</Rate>	
+	<Item Kind="Equipment">
+		<PhysicalLables>
+			<li>SmallThing</li>
+		</PhysicalLables>
+		
+		<BeMade>
+			<WorkToMake>2000</WorkToMake>
+			<Quality>12</Quality>
+			<ArtDesc></ArtDesc>
+			<CostItems>
+					<Item name = "Item_Jade" count = "1000"/>
+					<Item name = "Item_StarEssence" count = "20"/>
+					<Item name = "Item_LingCrystal" count = "20"/>
+			</CostItems>			
+		</BeMade>
+		<Equip>
+			<ToolModifier>SysTool_KunLunMirror</ToolModifier>
+		</Equip>
+	</Item>
+	<Ling>
+		<AddionLing>500</AddionLing>
+		<AddionRadius>1</AddionRadius>
+		<AddionFailing>0.1</AddionFailing>
+		<AddionFailRadius>1</AddionFailRadius>
+		
+		<Attenuation>0.1</Attenuation>
+		<Absorption>10</Absorption>
+		<Accommodate>100</Accommodate>
+	</Ling>				
+	</ThingDef>	
+	
+	<ThingDef Type="Item" Name="Item_LianYaoPot" Parent="ToolBase">
+	<Tags>
+	</Tags>
+	<ThingName>炼妖壶</ThingName>
+	<MaxStack>1</MaxStack>
+	<ElementKind>None</ElementKind>		
+	<TexPath>Spr\object\object_LianYaoPot.png</TexPath>
+	<TexScale>0.19</TexScale>	
+	<Desc>古称九黎壶，乃上古异宝之一。拥有不可思议之力，据说能造就一切万物，也有惊人之毁坏力量。内部有着奇异之空间，空间之大似能将天地收纳于内。</Desc>
+	<Beauty>15</Beauty>
+	<Rate>12</Rate>	
+	<Item Kind="Equipment">
+		<PhysicalLables>
+			<li>SmallThing</li>
+		</PhysicalLables>
+		
+		<BeMade>
+			<WorkToMake>2000</WorkToMake>
+			<Quality>12</Quality>
+			<ArtDesc></ArtDesc>
+			<CostItems>
+					<Item name = "Item_StarEssence" count = "90"/>
+					<Item name = "Item_LingCrystal" count = "20"/>
+			</CostItems>			
+		</BeMade>
+		<Equip>
+			<ToolModifier>SysTool_LianYaoPot</ToolModifier>
+		</Equip>
+	</Item>
+	<Ling>
+		<AddionLing>500</AddionLing>
+		<AddionRadius>1</AddionRadius>
+		<AddionFailing>0.1</AddionFailing>
+		<AddionFailRadius>1</AddionFailRadius>
+		
+		<Attenuation>0.1</Attenuation>
+		<Absorption>10</Absorption>
+		<Accommodate>100</Accommodate>
+	</Ling>				
+	</ThingDef>	
+	
+</List></ThingDefs>

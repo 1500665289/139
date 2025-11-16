@@ -1,0 +1,48 @@
+<ThingDefs><List>
+  
+	<ThingDef Type="Item" Name="Item_GuiBiTianJie" Parent="ToolBase">
+	
+	<ThingName>遮天蔽日图</ThingName>
+	<MaxStack>1</MaxStack>
+	<Rate>12</Rate>
+	<TexPath>res\Sprs\object\object_shuahua01</TexPath>
+	<Desc>不知名仙人留下的神秘阵图，佩戴者可以借助本地气脉，加以大千世界四季流转之力，遮蔽自身天机，不受天劫困扰。如在此过程中如果卸下图卷，则天劫会瞬间降临。</Desc>
+	<Flammability>
+		<Flammability>-1</Flammability>
+		<FlameSpawnThingDef></FlameSpawnThingDef>
+		<FlameSpawnChance>0</FlameSpawnChance>
+	</Flammability>
+	
+	<Item Kind="Equipment">
+		<Prices>
+			<TalkType>1</TalkType>
+			<BaseCount>1</BaseCount>
+			<li PriceTag="School">
+				<BuyPrice Value="999999" FriendPoint="99"/>
+				<SalePrice Value="999999" />
+			</li>
+			<li PriceTag="Trade">
+				<BuyPrice Value="999999" />
+				<SalePrice Value="999999" />
+			</li>
+			<li PriceTag="Auction">
+				<BuyPrice Value="999999" />
+				<SalePrice Value="999999" />
+			</li>
+		</Prices>
+		<NotFengshuiItem>1</NotFengshuiItem>
+		<NotRandom>1</NotRandom>
+		<FabaoSuffix>图</FabaoSuffix>
+		<PhysicalLables>
+			<li>SmallThing</li>
+		</PhysicalLables>
+		<BeMade>
+			<Quality>100</Quality>
+		</BeMade> 
+		<Equip>
+			<ToolModifier>SysTool_GuiBiTianJie</ToolModifier>
+		</Equip>
+	</Item>
+	</ThingDef>
+
+</List></ThingDefs>

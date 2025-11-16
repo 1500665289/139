@@ -1,0 +1,87 @@
+﻿<DamageDefs><List>
+
+	<Damage Name="None_SpacePower">
+		<DisplayName>空间之力</DisplayName>                                      <!--血肉，内脏-->
+		<Lable>None</Lable>            <!--伤害类别-->
+		<TreatConstant>0</TreatConstant>  <!-- 是否可以自愈-->
+		<ValueMin>0.9</ValueMin>    <!-- 最低损伤器官百分比-->
+		<ValueMax>1</ValueMax>       <!--最高损伤器官百分比-->
+		<Pain>1</Pain>               <!--疼痛程度-->
+		<Trend>0.2</Trend>			<!--恶化速度-->
+		<Previous></Previous>      <!--治疗后转变的伤势-->
+		<Next></Next>              <!--恶化后转变的伤势-->
+	</Damage>
+
+	<Damage Name="Jin_XuanYuanSwordLight">
+		<DisplayName>轩辕剑气</DisplayName>                                      <!--血肉，内脏-->
+		<Lable>Jin</Lable>            <!--伤害类别-->
+		<TreatConstant>0</TreatConstant>  <!-- 是否可以自愈-->
+		<ValueMin>0.9</ValueMin>    <!-- 最低损伤器官百分比-->
+		<ValueMax>1</ValueMax>       <!--最高损伤器官百分比-->
+		<Pain>1</Pain>               <!--疼痛程度-->
+		<Trend>0.2</Trend>			<!--恶化速度-->
+		<Previous></Previous>      <!--治疗后转变的伤势-->
+		<Next></Next>              <!--恶化后转变的伤势-->
+	</Damage>
+	
+	<Damage Name="None_XianShenSwordLight">
+		<DisplayName>仙魔剑气</DisplayName>                                      <!--血肉，内脏-->
+		<Lable>None</Lable>            <!--伤害类别-->
+		<TreatConstant>1</TreatConstant>  <!-- 是否可以自愈-->
+		<ValueMin>0.9</ValueMin>    <!-- 最低损伤器官百分比-->
+		<ValueMax>1</ValueMax>       <!--最高损伤器官百分比-->
+		<Pain>1</Pain>               <!--疼痛程度-->
+		<Trend>0.5</Trend>			<!--恶化速度-->
+		<Previous></Previous>      <!--治疗后转变的伤势-->
+		<Next></Next>              <!--恶化后转变的伤势-->
+	</Damage>
+	
+	<Damage Name="Shui_XuanBingLight">
+		<DisplayName>玄冰剑气</DisplayName><!--骨-->
+		<Lable>Shui</Lable>
+		<TreatConstant>1</TreatConstant>
+		<ValueMin>0.9</ValueMin>
+		<ValueMax>1</ValueMax>
+		<Pain>1</Pain>
+		<Trend>0.5</Trend>
+		<Previous></Previous>
+		<Next></Next>
+	</Damage>
+
+	<Damage Name="Huo_VisceralBurnL">
+		<DisplayName>焚灭剑气</DisplayName><!--内脏-->
+		<Lable>Huo</Lable>
+		<TreatConstant>1</TreatConstant>
+		<ValueMin>0.9</ValueMin>
+		<ValueMax>1</ValueMax>
+		<Pain>1</Pain>
+		<Trend>0.5</Trend>
+		<Previous></Previous>
+		<Next></Next>
+	</Damage>
+
+	<Damage Name="Tu_Petrifaction3">
+		<DisplayName>凝土剑气</DisplayName><!--全身，内脏，血肉-->
+		<Lable>Tu</Lable>
+		<TreatConstant>1</TreatConstant>
+		<ValueMin>0.9</ValueMin>
+		<ValueMax>1</ValueMax>
+		<Pain>1</Pain>
+		<Trend>0.5</Trend>
+		<Previous></Previous>
+		<Next></Next>
+	</Damage>
+
+	<Damage Name="Mu_Corrosion1">
+		<DisplayName>青木剑气</DisplayName><!--骨骼，血肉-->
+		<Lable>Mu</Lable>
+		<TreatConstant>1</TreatConstant>
+		<ValueMin>0.9</ValueMin>
+		<ValueMax>1</ValueMax>
+		<Pain>1</Pain>
+		<Trend>0.5</Trend>
+		<Previous></Previous>
+		<Next></Next>
+	</Damage>
+
+</List></DamageDefs>

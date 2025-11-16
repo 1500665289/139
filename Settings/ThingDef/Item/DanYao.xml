@@ -1,0 +1,340 @@
+<ThingDefs><List>
+
+  <ThingDef Type="Item" Name="Item_XiSuiMax" Parent="DrugBase">
+		<ThingName>洗髓丹</ThingName>
+		<TexPath>res\Sprs\object\object_PINGdanyao03</TexPath>
+		<Desc>加满外门等级的丹药，服用能够立即将所有技能提升至满级。</Desc>	
+		<Rate>1</Rate>
+		<Beauty>1</Beauty>
+		<ElementKind>Huo</ElementKind>
+		<Item Lable="Dan">
+			<PhysicalLables>
+				<li>Smooth1</li>
+				<li>Hard1</li>
+				<li>Light1</li>
+			</PhysicalLables>
+			<Elixir>
+				<Modifier>Dan_XiSuiMax</Modifier>
+			</Elixir>
+			<BeMade>
+				<WorkToMake>20</WorkToMake>
+				<CostItems>
+					<Item name = "Item_Ginkgo" count = "1"/>
+				</CostItems>
+			</BeMade> 
+		</Item>
+    <Ling>
+			<AddionLing>0</AddionLing>
+			<AddionRadius>1</AddionRadius>
+			<AddionFailing>0</AddionFailing>
+			<AddionFailRadius>0</AddionFailRadius>
+			<Attenuation>0</Attenuation>
+			<Absorption>0</Absorption>
+			<Accommodate>0</Accommodate>
+		</Ling>
+		<Element>
+			<Kind>Huo</Kind>
+			<Value>3</Value>   
+		</Element>
+	</ThingDef>
+
+  <ThingDef Type="Item" Name="Item_Dan_HuiLing" Parent="DanBase">
+		<ThingName>回灵丹</ThingName>
+		<TexPath>res\Sprs\object\object_DAdanyao03</TexPath>
+		<Desc>瞬间补满灵气。</Desc>	
+		<Rate>1</Rate>
+		<Beauty>5</Beauty>
+		<ElementKind>Shui</ElementKind>
+		<Item Lable="Dan">
+			<PhysicalLables>
+				<li>Smooth1</li>
+				<li>Hard1</li>
+				<li>Light1</li>
+			</PhysicalLables>
+			<Elixir>
+				<DiscipleOnly>1</DiscipleOnly>
+				<Modifier>Dan_HuiLing</Modifier>
+			</Elixir>
+			<BeMade>
+				<WorkToMake>20</WorkToMake>
+				<CostItems>
+					<Item name = "Item_Ginkgo" count = "1"/>
+				</CostItems>
+			</BeMade> 
+		</Item>
+		<Element>
+			<Kind>Shui</Kind>
+			<Value>8</Value>   
+		</Element>
+	</ThingDef>
+	
+	  <ThingDef Type="Item" Name="Item_Dan_XunXian" Parent="DanBase">
+		<ThingName>寻仙丹</ThingName>
+		<TexPath>res\Sprs\object\object_DAdanyao02</TexPath>
+		<Desc>直接突破瓶颈，不能突破结金丹或者任何形式的雷劫。</Desc>	
+		<Rate>1</Rate>
+		<Beauty>5</Beauty>
+		<ElementKind>Mu</ElementKind>
+		<Item Lable="Dan">
+			<PhysicalLables>
+				<li>Smooth1</li>
+				<li>Hard1</li>
+				<li>Light1</li>
+			</PhysicalLables>
+			<Elixir>
+				<Modifier>Dan_XunXian</Modifier>
+			</Elixir>
+			<BeMade>
+				<WorkToMake>20</WorkToMake>
+				<CostItems>
+					<Item name = "Item_Ginkgo" count = "1"/>
+				</CostItems>
+			</BeMade> 
+		</Item>
+		<Element>
+			<Kind>Mu</Kind>
+			<Value>8</Value>   
+		</Element>
+	</ThingDef>
+
+  <ThingDef Type="Item" Name="Item_Dan_RuiShou" Parent="DanBase">
+		<ThingName>瑞兽丹</ThingName>
+		<TexPath>res\Sprs\object\object_jidan01</TexPath>
+		<Desc>由最高的技术烹制而成的食（丹）物（药），因此所有人都喜欢，可以瞬间驯化任何动物，也可以瞬间治愈所有伤势。</Desc>
+		<Rate>1</Rate>
+		<Beauty>5</Beauty>
+		<ElementKind>None</ElementKind>
+    <Tags>
+      <Tag Name="Tame" Level="9999"/>
+      <Tag Name="TameVeg" Level="1"/>
+      <Tag Name="TameLing" Level="1"/>
+      <Tag Name="TameMeat" Level="1"/>
+    </Tags>
+		<Item Lable="Dan">
+			<PhysicalLables>
+				<li>Smooth1</li>
+				<li>Hard1</li>
+				<li>Light1</li>
+			</PhysicalLables>
+			<Elixir>
+				<RecoveryLable>
+					<li>Dfood</li>
+					<li>None</li>
+					<li>OldScar</li>
+					<li>Jin</li>
+					<li>Mu</li>
+					<li>Shui</li>
+					<li>Huo</li>
+					<li>Tu</li>
+					<li>Ling</li>
+				</RecoveryLable>
+				<RecoveryValue>1000</RecoveryValue>
+				<RecoveryDuration>0.04</RecoveryDuration>
+			</Elixir>
+			<BeMade>
+				<WorkToMake>20</WorkToMake>
+				<CostItems>
+					<Item name = "Item_Mushroom" count = "1"/>
+					<Item name = "Item_Lotusroot" count = "1"/>
+					<Item name = "Item_BoarMeat" count = "1"/>
+					<Item name = "Item_FrogMeat" count = "1"/>
+					<Item name = "Item_TurtleMeat" count = "1"/>
+					<Item name = "Item_BearMeat" count = "1"/>
+					<Item name = "Item_Beef" count = "1"/>
+					<Item name = "Item_RabbitMeat" count = "1"/>
+					<Item name = "Item_ChickenMeat" count = "1"/>
+					<Item name = "Item_SnakeMeat" count = "1"/>
+				</CostItems>
+			</BeMade>
+		</Item>
+		<Element>
+			<Kind>None</Kind>
+			<Value>8</Value>   
+		</Element>
+	</ThingDef>
+  
+  <ThingDef Type="Item" Name="Item_MoYuShuangYu" Parent="DanBase">
+		<ThingName>墨玉双鱼</ThingName>
+		<TexPath>res\Sprs\object\object_hundunlongyu01</TexPath>
+		<Desc>融合天地阴阳万法的玄妙之玉，可逆转阴阳，打破天道，让尸体复生。</Desc>
+		<Rate>12</Rate>
+		<Beauty>168</Beauty>
+		<ElementKind>None</ElementKind>
+		<Item Lable="Dan">
+			<PhysicalLables>
+				<li>Smooth1</li>
+				<li>Hard1</li>
+				<li>Light1</li>
+			</PhysicalLables>
+			<Elixir>
+        <Modifier>Modifier_MoYuShuangYu</Modifier>
+			</Elixir>
+			<BeMade>
+				<WorkToMake>800</WorkToMake>
+				<CostItems>
+					<Item name = "Item_Ginkgo" count = "5"/>
+				</CostItems>
+			</BeMade> 
+		</Item>
+		<Element>
+			<Kind>None</Kind>
+		</Element>
+	</ThingDef>
+	
+	  <ThingDef Type="Item" Name="Item_Dan_ZhaoLong" Parent="DanBase">
+		<ThingName>召龙丹</ThingName>
+		<TexPath>res\Sprs\object\object_HULUdanyao04</TexPath>
+		<Desc>召唤蛟龙。</Desc>	
+		<Rate>12</Rate>
+		<Beauty>5</Beauty>
+		<ElementKind>Shui</ElementKind>
+		<Item Lable="Dan">
+			<PhysicalLables>
+				<li>Smooth1</li>
+				<li>Hard1</li>
+				<li>Light1</li>
+			</PhysicalLables>
+			<Elixir>
+				<Modifier>Dan_ZhaoLong</Modifier>
+			</Elixir>
+			<BeMade>
+				<WorkToMake>20</WorkToMake>
+				<CostItems>
+					<Item name = "Item_Ginkgo" count = "1"/>
+				</CostItems>
+			</BeMade> 
+		</Item>
+		<Element>
+			<Kind>Shui</Kind>
+			<Value>8</Value>   
+		</Element>
+	</ThingDef>
+	
+  <ThingDef Type="Item" Name="Item_Dan_YinFeng" Parent="DanBase">
+		<ThingName>引凤丹</ThingName>
+		<TexPath>res\Sprs\object\object_HULUdanyao02</TexPath>
+		<Desc>召唤凶凤。</Desc>	
+		<Rate>12</Rate>
+		<Beauty>5</Beauty>
+		<ElementKind>Huo</ElementKind>
+		<Item Lable="Dan">
+			<PhysicalLables>
+				<li>Smooth1</li>
+				<li>Hard1</li>
+				<li>Light1</li>
+			</PhysicalLables>
+			<Elixir>
+				<Modifier>Dan_YinFeng</Modifier>
+			</Elixir>
+			<BeMade>
+				<WorkToMake>20</WorkToMake>
+				<CostItems>
+					<Item name = "Item_Ginkgo" count = "1"/>
+				</CostItems>
+			</BeMade> 
+		</Item>
+		<Element>
+			<Kind>Huo</Kind>
+			<Value>8</Value>   
+		</Element>
+	</ThingDef>
+	
+  <ThingDef Type="Item" Name="Item_Dan_ZhuLong" Parent="DanBase">
+		<ThingName>烛龙丹</ThingName>
+		<TexPath>res\Sprs\object\object_HULUdanyao01</TexPath>
+		<Desc>召唤烛龙。</Desc>	
+		<Rate>12</Rate>
+		<Beauty>5</Beauty>
+		<ElementKind>None</ElementKind>
+		<Item Lable="Dan">
+			<PhysicalLables>
+				<li>Smooth1</li>
+				<li>Hard1</li>
+				<li>Light1</li>
+			</PhysicalLables>
+			<Elixir>
+				<Modifier>Dan_ZhuLong</Modifier>
+			</Elixir>
+			<BeMade>
+				<WorkToMake>20</WorkToMake>
+				<CostItems>
+					<Item name = "Item_Ginkgo" count = "1"/>
+				</CostItems>
+			</BeMade> 
+		</Item>
+		<Element>
+			<Kind>None</Kind>
+			<Value>8</Value>   
+		</Element>
+	</ThingDef>
+ 
+	  <ThingDef Type="Item" Name="Item_Dan_MiBao" Parent="DanBase">
+		<ThingName>秘宝丹</ThingName>
+		<TexPath>res\Sprs\object\object_raw003</TexPath>
+		<Desc>服用后秘宝解锁进度+1，可以幽淬提升效果。</Desc>
+		<Rate>4</Rate>
+		<Beauty>50</Beauty>
+		<ElementKind>None</ElementKind>
+		<Item Lable="Dan">
+			<PhysicalLables>
+				<li>Smooth1</li>
+				<li>Hard1</li>
+				<li>Light1</li>
+			</PhysicalLables>
+			<Elixir>
+				<Modifier>Dan_MiBao</Modifier>
+			</Elixir>
+			<BeMade>
+				<WorkToMake>20</WorkToMake>
+				<CostItems>
+					<Item name = "Item_Ginkgo" count = "1"/>
+				</CostItems>
+			</BeMade>
+		</Item>
+		<Element>
+			<Kind>None</Kind>
+			<Value>8</Value>   
+		</Element>
+	</ThingDef>
+	
+	<ThingDef Type="Item" Name="Item_WuWeiMAX" Parent="DanBase">
+		<ThingName>造化神秀丹</ThingName>
+		<TexPath>res\Sprs\object\object_zhuguo01</TexPath>
+		<Desc>食用之后，灵气充盈，源源不绝。提升五维属性，续命五百载。服用之人身心通畅，恍若神仙，仙业可期。真当是会当凌绝顶，一览众山小，。</Desc>
+		<MaxHitPoints>100</MaxHitPoints>
+		<Rate>12</Rate>
+		<Beauty>100</Beauty>
+		<ElementKind>None</ElementKind>
+		<Item Lable="Dan">
+			<Elixir>
+				<Modifier>Dan_WuWeiMAX</Modifier>
+			</Elixir>
+			<BeMade>
+				<WorkToMake>100</WorkToMake>
+				<Quality>100</Quality>
+				<CostItems>
+					<Item name = "Item_ThunderAir" count = "1"/>
+					<Item name = "Item_EarthEssence_1" count = "1"/>
+					<Item name = "Item_EarthEssence1_1" count = "1"/>
+					<Item name = "Item_JinEssence" count = "1"/>
+					<Item name = "Item_MuEssence" count = "1"/>
+					<Item name = "Item_ShuiEssence" count = "1"/>
+					<Item name = "Item_HuoEssence" count = "1"/>
+					<Item name = "Item_TuEssence" count = "1"/>
+					<Item name = "Item_LifeStream" count = "1"/>
+					<Item name = "Item_Ginseng" count = "9"/>
+					<Item name = "Item_GanodermaLucidum" count = "9"/>
+					<Item name = "Item_Mint" count = "9"/>
+					<Item name = "Item_MagicHerb" count = "9"/>
+					<Item name = "Item_Water" count = "9"/>
+				</CostItems>
+			</BeMade>
+		</Item>
+		<Element>
+			<Kind>None</Kind>
+			<Value>12</Value>
+			<Radius>2</Radius>
+		</Element>
+	</ThingDef>
+	
+</List></ThingDefs>

@@ -1,0 +1,383 @@
+<ThingDefs><List>
+
+	<ThingDef Type="Item" Name="Item_BHHK_YF_02" Parent="ClothesBase">
+		<ThingName>百合花开上衣-金</ThingName>
+		<TexPath>res/Sprs/object/object_danyi01</TexPath>
+		<MaxStack>1</MaxStack>
+		<Desc>为携带者施加一个金属性的特效。</Desc>
+		<MaxHitPoints>500</MaxHitPoints>
+		<Rate>12</Rate>
+		<Beauty>100</Beauty>
+		<ElementKind>None</ElementKind>
+		<Flammability>
+			<Flammability>0</Flammability>
+			<FlameSpawnThingDef>0</FlameSpawnThingDef>
+			<FlameSpawnChance>0</FlameSpawnChance>
+			<BurningPoint>0</BurningPoint>
+		</Flammability>
+		<Item Lable="Clothes">
+			<FabaoSuffix>衣,甲,御,衫</FabaoSuffix>
+			<NotRandom>2</NotRandom>
+			<PhysicalLables>
+				<li>GreatThing_Attack</li>
+			</PhysicalLables>
+			<BeMade>
+				<WorkToMake>100</WorkToMake>
+				<Quality>12</Quality>
+				<ArtDesc>100</ArtDesc>
+				<StuffCategories>
+					<Stuff name = "Leather"/>
+				</StuffCategories>
+				<CostStuffCount>20</CostStuffCount>
+			</BeMade>
+			<Equip>
+				<ToolModifier>Modifier_Item_BHHK_YF_02</ToolModifier>
+				<ModelID>1</ModelID>
+				<PropertyScaleFromStuff>1</PropertyScaleFromStuff>
+			</Equip>
+		</Item>
+	</ThingDef>
+	
+	<ThingDef Type="Item" Name="Item_BHHK_KZ_02" Parent="TrousersBase">
+		<ThingName>百合花开裤子-金</ThingName>
+		<TexPath>res/Sprs/object/object_danku01</TexPath>
+		<MaxStack>1</MaxStack>
+		<Desc>为携带者施加一个金属性的特效。</Desc>
+		<MaxHitPoints>500</MaxHitPoints>
+		<Rate>12</Rate>
+		<Beauty>100</Beauty>
+		<ElementKind>None</ElementKind>
+		<Flammability>
+			<Flammability>0</Flammability>
+			<FlameSpawnThingDef>0</FlameSpawnThingDef>
+			<FlameSpawnChance>0</FlameSpawnChance>
+			<BurningPoint>0</BurningPoint>
+		</Flammability>
+		<Item Lable="Trousers">
+			<FabaoSuffix>衣,甲,御,衫</FabaoSuffix>
+			<NotRandom>2</NotRandom>
+			<PhysicalLables>
+				<li>GreatThing_Attack</li>
+			</PhysicalLables>
+			<BeMade>
+				<WorkToMake>100</WorkToMake>
+				<Quality>12</Quality>
+				<ArtDesc>100</ArtDesc>
+				<StuffCategories>
+					<Stuff name = "Leather"/>
+				</StuffCategories>
+				<CostStuffCount>20</CostStuffCount>
+			</BeMade>
+			<Equip>
+				<ToolModifier>Modifier_Item_BHHK_KZ_02</ToolModifier>
+				<ModelID>1</ModelID>
+				<PropertyScaleFromStuff>1</PropertyScaleFromStuff>
+			</Equip>
+		</Item>
+	</ThingDef>
+	
+	<ThingDef Type="Item" Name="Item_BHHK_YF_03" Parent="ClothesBase">
+		<ThingName>百合花开上衣-木</ThingName>
+		<TexPath>res/Sprs/object/object_danyi01</TexPath>
+		<MaxStack>1</MaxStack>
+		<Desc>为携带者施加一个木属性的特效。</Desc>
+		<MaxHitPoints>500</MaxHitPoints>
+		<Rate>12</Rate>
+		<Beauty>100</Beauty>
+		<ElementKind>None</ElementKind>
+		<Flammability>
+			<Flammability>0</Flammability>
+			<FlameSpawnThingDef>0</FlameSpawnThingDef>
+			<FlameSpawnChance>0</FlameSpawnChance>
+			<BurningPoint>0</BurningPoint>
+		</Flammability>
+		<Item Lable="Clothes">
+			<FabaoSuffix>衣,甲,御,衫</FabaoSuffix>
+			<NotRandom>2</NotRandom>
+			<PhysicalLables>
+				<li>GreatThing_Attack</li>
+			</PhysicalLables>
+			<BeMade>
+				<WorkToMake>100</WorkToMake>
+				<Quality>12</Quality>
+				<ArtDesc>100</ArtDesc>
+				<StuffCategories>
+					<Stuff name = "Leather"/>
+				</StuffCategories>
+				<CostStuffCount>20</CostStuffCount>
+			</BeMade>
+			<Equip>
+				<ToolModifier>Modifier_Item_BHHK_YF_03</ToolModifier>
+				<ModelID>1</ModelID>
+				<PropertyScaleFromStuff>1</PropertyScaleFromStuff>
+			</Equip>
+		</Item>
+	</ThingDef>
+	
+	<ThingDef Type="Item" Name="Item_BHHK_KZ_03" Parent="TrousersBase">
+		<ThingName>百合花开裤子-木</ThingName>
+		<TexPath>res/Sprs/object/object_danku01</TexPath>
+		<MaxStack>1</MaxStack>
+		<Desc>为携带者施加一个木属性的特效。</Desc>
+		<MaxHitPoints>500</MaxHitPoints>
+		<Rate>12</Rate>
+		<Beauty>100</Beauty>
+		<ElementKind>None</ElementKind>
+		<Flammability>
+			<Flammability>0</Flammability>
+			<FlameSpawnThingDef>0</FlameSpawnThingDef>
+			<FlameSpawnChance>0</FlameSpawnChance>
+			<BurningPoint>0</BurningPoint>
+		</Flammability>
+		<Item Lable="Trousers">
+			<FabaoSuffix>衣,甲,御,衫</FabaoSuffix>
+			<NotRandom>2</NotRandom>
+			<PhysicalLables>
+				<li>GreatThing_Attack</li>
+			</PhysicalLables>
+			<BeMade>
+				<WorkToMake>100</WorkToMake>
+				<Quality>12</Quality>
+				<ArtDesc>100</ArtDesc>
+				<StuffCategories>
+					<Stuff name = "Leather"/>
+				</StuffCategories>
+				<CostStuffCount>20</CostStuffCount>
+			</BeMade>
+			<Equip>
+				<ToolModifier>Modifier_Item_BHHK_KZ_03</ToolModifier>
+				<ModelID>1</ModelID>
+				<PropertyScaleFromStuff>1</PropertyScaleFromStuff>
+			</Equip>
+		</Item>
+	</ThingDef>
+	
+	<ThingDef Type="Item" Name="Item_BHHK_YF_04" Parent="ClothesBase">
+		<ThingName>百合花开上衣-水</ThingName>
+		<TexPath>res/Sprs/object/object_danyi01</TexPath>
+		<MaxStack>1</MaxStack>
+		<Desc>为携带者施加一个水属性的特效。</Desc>
+		<MaxHitPoints>500</MaxHitPoints>
+		<Rate>12</Rate>
+		<Beauty>100</Beauty>
+		<ElementKind>None</ElementKind>
+		<Flammability>
+			<Flammability>0</Flammability>
+			<FlameSpawnThingDef>0</FlameSpawnThingDef>
+			<FlameSpawnChance>0</FlameSpawnChance>
+			<BurningPoint>0</BurningPoint>
+		</Flammability>
+		<Item Lable="Clothes">
+			<FabaoSuffix>衣,甲,御,衫</FabaoSuffix>
+			<NotRandom>2</NotRandom>
+			<PhysicalLables>
+				<li>GreatThing_Attack</li>
+			</PhysicalLables>
+			<BeMade>
+				<WorkToMake>100</WorkToMake>
+				<Quality>12</Quality>
+				<ArtDesc>100</ArtDesc>
+				<StuffCategories>
+					<Stuff name = "Leather"/>
+				</StuffCategories>
+				<CostStuffCount>20</CostStuffCount>
+			</BeMade>
+			<Equip>
+				<ToolModifier>Modifier_Item_BHHK_YF_04</ToolModifier>
+				<ModelID>1</ModelID>
+				<PropertyScaleFromStuff>1</PropertyScaleFromStuff>
+			</Equip>
+		</Item>
+	</ThingDef>
+	
+	<ThingDef Type="Item" Name="Item_BHHK_KZ_04" Parent="TrousersBase">
+		<ThingName>百合花开裤子-水</ThingName>
+		<TexPath>res/Sprs/object/object_danku01</TexPath>
+		<MaxStack>1</MaxStack>
+		<Desc>为携带者施加一个水属性的特效。</Desc>
+		<MaxHitPoints>500</MaxHitPoints>
+		<Rate>12</Rate>
+		<Beauty>100</Beauty>
+		<ElementKind>None</ElementKind>
+		<Flammability>
+			<Flammability>0</Flammability>
+			<FlameSpawnThingDef>0</FlameSpawnThingDef>
+			<FlameSpawnChance>0</FlameSpawnChance>
+			<BurningPoint>0</BurningPoint>
+		</Flammability>
+		<Item Lable="Trousers">
+			<FabaoSuffix>衣,甲,御,衫</FabaoSuffix>
+			<NotRandom>2</NotRandom>
+			<PhysicalLables>
+				<li>GreatThing_Attack</li>
+			</PhysicalLables>
+			<BeMade>
+				<WorkToMake>100</WorkToMake>
+				<Quality>12</Quality>
+				<ArtDesc>100</ArtDesc>
+				<StuffCategories>
+					<Stuff name = "Leather"/>
+				</StuffCategories>
+				<CostStuffCount>20</CostStuffCount>
+			</BeMade>
+			<Equip>
+				<ToolModifier>Modifier_Item_BHHK_KZ_04</ToolModifier>
+				<ModelID>1</ModelID>
+				<PropertyScaleFromStuff>1</PropertyScaleFromStuff>
+			</Equip>
+		</Item>
+	</ThingDef>
+	
+	<ThingDef Type="Item" Name="Item_BHHK_YF_05" Parent="ClothesBase">
+		<ThingName>百合花开上衣-火</ThingName>
+		<TexPath>res/Sprs/object/object_danyi01</TexPath>
+		<MaxStack>1</MaxStack>
+		<Desc>为携带者施加一个火属性的特效。</Desc>
+		<MaxHitPoints>500</MaxHitPoints>
+		<Rate>12</Rate>
+		<Beauty>100</Beauty>
+		<ElementKind>None</ElementKind>
+		<Flammability>
+			<Flammability>0</Flammability>
+			<FlameSpawnThingDef>0</FlameSpawnThingDef>
+			<FlameSpawnChance>0</FlameSpawnChance>
+			<BurningPoint>0</BurningPoint>
+		</Flammability>
+		<Item Lable="Clothes">
+			<FabaoSuffix>衣,甲,御,衫</FabaoSuffix>
+			<NotRandom>2</NotRandom>
+			<PhysicalLables>
+				<li>GreatThing_Attack</li>
+			</PhysicalLables>
+			<BeMade>
+				<WorkToMake>100</WorkToMake>
+				<Quality>12</Quality>
+				<ArtDesc>100</ArtDesc>
+				<StuffCategories>
+					<Stuff name = "Leather"/>
+				</StuffCategories>
+				<CostStuffCount>20</CostStuffCount>
+			</BeMade>
+			<Equip>
+				<ToolModifier>Modifier_Item_BHHK_YF_05</ToolModifier>
+				<ModelID>1</ModelID>
+				<PropertyScaleFromStuff>1</PropertyScaleFromStuff>
+			</Equip>
+		</Item>
+	</ThingDef>
+	
+	<ThingDef Type="Item" Name="Item_BHHK_KZ_05" Parent="TrousersBase">
+		<ThingName>百合花开裤子-火</ThingName>
+		<TexPath>res/Sprs/object/object_danku01</TexPath>
+		<MaxStack>1</MaxStack>
+		<Desc>为携带者施加一个火属性的特效。</Desc>
+		<MaxHitPoints>500</MaxHitPoints>
+		<Rate>12</Rate>
+		<Beauty>100</Beauty>
+		<ElementKind>None</ElementKind>
+		<Flammability>
+			<Flammability>0</Flammability>
+			<FlameSpawnThingDef>0</FlameSpawnThingDef>
+			<FlameSpawnChance>0</FlameSpawnChance>
+			<BurningPoint>0</BurningPoint>
+		</Flammability>
+		<Item Lable="Trousers">
+			<FabaoSuffix>衣,甲,御,衫</FabaoSuffix>
+			<NotRandom>2</NotRandom>
+			<PhysicalLables>
+				<li>GreatThing_Attack</li>
+			</PhysicalLables>
+			<BeMade>
+				<WorkToMake>100</WorkToMake>
+				<Quality>12</Quality>
+				<ArtDesc>100</ArtDesc>
+				<StuffCategories>
+					<Stuff name = "Leather"/>
+				</StuffCategories>
+				<CostStuffCount>20</CostStuffCount>
+			</BeMade>
+			<Equip>
+				<ToolModifier>Modifier_Item_BHHK_KZ_05</ToolModifier>
+				<ModelID>1</ModelID>
+				<PropertyScaleFromStuff>1</PropertyScaleFromStuff>
+			</Equip>
+		</Item>
+	</ThingDef>
+	
+	<ThingDef Type="Item" Name="Item_BHHK_YF_06" Parent="ClothesBase">
+		<ThingName>百合花开上衣-土</ThingName>
+		<TexPath>res/Sprs/object/object_danyi01</TexPath>
+		<MaxStack>1</MaxStack>
+		<Desc>为携带者施加一个土属性的特效。</Desc>
+		<MaxHitPoints>500</MaxHitPoints>
+		<Rate>12</Rate>
+		<Beauty>100</Beauty>
+		<ElementKind>None</ElementKind>
+		<Flammability>
+			<Flammability>0</Flammability>
+			<FlameSpawnThingDef>0</FlameSpawnThingDef>
+			<FlameSpawnChance>0</FlameSpawnChance>
+			<BurningPoint>0</BurningPoint>
+		</Flammability>
+		<Item Lable="Clothes">
+			<FabaoSuffix>衣,甲,御,衫</FabaoSuffix>
+			<NotRandom>2</NotRandom>
+			<PhysicalLables>
+				<li>GreatThing_Attack</li>
+			</PhysicalLables>
+			<BeMade>
+				<WorkToMake>100</WorkToMake>
+				<Quality>12</Quality>
+				<ArtDesc>100</ArtDesc>
+				<StuffCategories>
+					<Stuff name = "Leather"/>
+				</StuffCategories>
+				<CostStuffCount>20</CostStuffCount>
+			</BeMade>
+			<Equip>
+				<ToolModifier>Modifier_Item_BHHK_YF_06</ToolModifier>
+				<ModelID>1</ModelID>
+				<PropertyScaleFromStuff>1</PropertyScaleFromStuff>
+			</Equip>
+		</Item>
+	</ThingDef>
+	
+	<ThingDef Type="Item" Name="Item_BHHK_KZ_06" Parent="TrousersBase">
+		<ThingName>百合花开裤子-土</ThingName>
+		<TexPath>res/Sprs/object/object_danku01</TexPath>
+		<MaxStack>1</MaxStack>
+		<Desc>为携带者施加一个土属性的特效。</Desc>
+		<MaxHitPoints>500</MaxHitPoints>
+		<Rate>12</Rate>
+		<Beauty>100</Beauty>
+		<ElementKind>None</ElementKind>
+		<Flammability>
+			<Flammability>0</Flammability>
+			<FlameSpawnThingDef>0</FlameSpawnThingDef>
+			<FlameSpawnChance>0</FlameSpawnChance>
+			<BurningPoint>0</BurningPoint>
+		</Flammability>
+		<Item Lable="Trousers">
+			<FabaoSuffix>衣,甲,御,衫</FabaoSuffix>
+			<NotRandom>2</NotRandom>
+			<PhysicalLables>
+				<li>GreatThing_Attack</li>
+			</PhysicalLables>
+			<BeMade>
+				<WorkToMake>100</WorkToMake>
+				<Quality>12</Quality>
+				<ArtDesc>100</ArtDesc>
+				<StuffCategories>
+					<Stuff name = "Leather"/>
+				</StuffCategories>
+				<CostStuffCount>20</CostStuffCount>
+			</BeMade>
+			<Equip>
+				<ToolModifier>Modifier_Item_BHHK_KZ_06</ToolModifier>
+				<ModelID>1</ModelID>
+				<PropertyScaleFromStuff>1</PropertyScaleFromStuff>
+			</Equip>
+		</Item>
+	</ThingDef>
+
+</List></ThingDefs>

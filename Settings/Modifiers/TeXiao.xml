@@ -1,0 +1,148 @@
+<ModifierDefs><List>
+
+	<Modifier Name="Modifier_Item_BHHK_YF_02" Type="Normal">
+		<DisplayName>特效衣-金</DisplayName>
+		<MaxStack>1</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<Sync>-1</Sync>
+		<Properties>
+			<li Name="ComfyTMin" AddV="-999"/>
+			<li Name="ComfyTMax" AddV="999"/>
+		</Properties>
+		<EffectBind>
+			<li Path="Effect/gsq/Prefab/Fx_FaZhen_jin"/>
+			<li Path="Effect/gsq/Prefab/TuPo_ing"/>
+			<li Path="Effect/gsq/Prefab/N-JieXianRen_Jin"/>
+		</EffectBind>
+	</Modifier>
+	
+	<Modifier Name="Modifier_Item_BHHK_KZ_02" Type="Normal">
+		<DisplayName>特效裤-金</DisplayName>
+		<MaxStack>1</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<Sync>-1</Sync>
+		<Properties>
+			<li Name="ToleranceTMin" AddV="-999"/>
+			<li Name="ToleranceTMax" AddV="999"/>
+		</Properties>
+	</Modifier>
+	
+	<Modifier Name="Modifier_Item_BHHK_YF_03" Type="Normal">
+		<DisplayName>特效衣-木</DisplayName>
+		<MaxStack>1</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<Sync>-1</Sync>
+		<Properties>
+			<li Name="ComfyTMin" AddV="-999"/>
+			<li Name="ComfyTMax" AddV="999"/>
+		</Properties>
+		<EffectBind>
+			<li Path="Effect/gsq/Prefab/Fx_FaZhen_mu"/>
+			<li Path="Effect/gsq/Prefab/TuPo_ing"/>
+			<li Path="Effect/gsq/Prefab/N-JieXianRen_Jin"/>
+		</EffectBind>
+	</Modifier>
+	
+	<Modifier Name="Modifier_Item_BHHK_KZ_03" Type="Normal">
+		<DisplayName>特效裤-木</DisplayName>
+		<MaxStack>1</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<Sync>-1</Sync>
+		<Properties>
+			<li Name="ToleranceTMin" AddV="-999"/>
+			<li Name="ToleranceTMax" AddV="999"/>
+		</Properties>
+	</Modifier>
+	
+	<Modifier Name="Modifier_Item_BHHK_YF_04" Type="Normal">
+		<DisplayName>特效衣-水</DisplayName>
+		<MaxStack>1</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<Sync>-1</Sync>
+		<Properties>
+			<li Name="ComfyTMin" AddV="-999"/>
+			<li Name="ComfyTMax" AddV="999"/>
+		</Properties>
+		<EffectBind>
+			<li Path="Effect/gsq/Prefab/Fx_FaZhen_shui"/>
+			<li Path="Effect/gsq/Prefab/TuPo_ing"/>
+			<li Path="Effect/gsq/Prefab/N-JieXianRen_Jin"/>
+		</EffectBind>
+	</Modifier>
+	
+	<Modifier Name="Modifier_Item_BHHK_KZ_04" Type="Normal">
+		<DisplayName>特效裤-水</DisplayName>
+		<MaxStack>1</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<Sync>-1</Sync>
+		<Properties>
+			<li Name="ToleranceTMin" AddV="-999"/>
+			<li Name="ToleranceTMax" AddV="999"/>
+		</Properties>
+	</Modifier>
+	
+	<Modifier Name="Modifier_Item_BHHK_YF_05" Type="Normal">
+		<DisplayName>特效衣-火</DisplayName>
+		<MaxStack>1</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<Sync>-1</Sync>
+		<Properties>
+			<li Name="ComfyTMin" AddV="-999"/>
+			<li Name="ComfyTMax" AddV="999"/>
+		</Properties>
+		<EffectBind>
+			<li Path="Effect/gsq/Prefab/Fx_FaZhen_huo"/>
+			<li Path="Effect/gsq/Prefab/TuPo_ing"/>
+			<li Path="Effect/gsq/Prefab/N-JieXianRen_Jin"/>
+		</EffectBind>
+	</Modifier>
+	
+	<Modifier Name="Modifier_Item_BHHK_KZ_05" Type="Normal">
+		<DisplayName>特效裤-火</DisplayName>
+		<MaxStack>1</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<Sync>-1</Sync>
+		<Properties>
+			<li Name="ToleranceTMin" AddV="-999"/>
+			<li Name="ToleranceTMax" AddV="999"/>
+		</Properties>
+	</Modifier>
+	
+	<Modifier Name="Modifier_Item_BHHK_YF_06" Type="Normal">
+		<DisplayName>特效衣-土</DisplayName>
+		<MaxStack>1</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<Sync>-1</Sync>
+		<Properties>
+			<li Name="ComfyTMin" AddV="-999"/>
+			<li Name="ComfyTMax" AddV="999"/>
+		</Properties>
+		<EffectBind>
+			<li Path="Effect/gsq/Prefab/Fx_FaZhen_tu"/>
+			<li Path="Effect/gsq/Prefab/TuPo_ing"/>
+			<li Path="Effect/gsq/Prefab/N-JieXianRen_Jin"/>
+		</EffectBind>
+	</Modifier>
+	
+	<Modifier Name="Modifier_Item_BHHK_KZ_06" Type="Normal">
+		<DisplayName>特效裤-土</DisplayName>
+		<MaxStack>1</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<Sync>-1</Sync>
+		<Properties>
+			<li Name="ToleranceTMin" AddV="-999"/>
+			<li Name="ToleranceTMax" AddV="999"/>
+		</Properties>
+	</Modifier>
+
+</List></ModifierDefs>

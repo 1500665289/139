@@ -1,0 +1,240 @@
+<ModifierDefs><List>
+<Modifier Name="PriestFrockUp" Type="Normal">
+		<DisplayName>太一道袍(上)</DisplayName>
+		<Desc>太一道袍上</Desc>
+		<MaxStack>1</MaxStack>
+		<Duration>-1</Duration>
+		<Display>1</Display>
+		<Properties>
+			<li Name="LingAbsorbSpeed" AddV="2"/>
+			<li Name="HappyConsumeConstant" AddP="-0.1"/>
+			<li Name="DeepPracticeSpeedSpecialCoefficient" AddP="0.1"/>
+		</Properties>
+	</Modifier> 
+
+	<Modifier Name="PriestFrockDown" Type="Normal">
+		<DisplayName>太一道袍(下)</DisplayName>
+		<Desc>太一道袍下</Desc>
+		<MaxStack>1</MaxStack>
+		<Duration>-1</Duration>
+		<Display>1</Display>
+		<Properties>
+			<li Name="MindStateBaseValue" AddV="10"/>
+			<li Name="BaseEmotionAddV" AddV="5"/>
+			<li Name="WorldMapFlySpeedAddP" AddV="0.5"/>
+		</Properties>
+	</Modifier> 
+
+	<Modifier Name="DanUp" Type="Normal">
+		<DisplayName>丹师道袍(上)</DisplayName>
+		<Desc>炼丹成功率+0.2</Desc>
+		<MaxStack>1</MaxStack>
+		<Duration>-1</Duration>
+		<Display>1</Display>
+		<Properties>
+			<li Name="LingAbsorbSpeed" AddV="2"/>
+			<li Name="DanMake_SuccessRateAddV" AddV="0.2"/>
+		</Properties>
+	</Modifier> 
+
+	<Modifier Name="DanDown" Type="Normal">
+		<DisplayName>丹师道袍(下)</DisplayName>
+		<Desc>丹药产量+0.25</Desc>
+		<MaxStack>1</MaxStack>
+		<Duration>-1</Duration>
+		<Display>1</Display>
+		<Properties>
+			<li Name="MindStateBaseValue" AddV="10"/>
+			<li Name="DanMake_YieldAddP" AddV="0.25"/>	
+		</Properties>
+	</Modifier> 
+
+	<Modifier Name="QiUp" Type="Normal">
+		<DisplayName>炼器道袍(上)</DisplayName>
+		<Desc>炼器成功率+0.2</Desc>
+		<MaxStack>1</MaxStack>
+		<Duration>-1</Duration>
+		<Display>1</Display>
+		<Properties>
+			<li Name="LingAbsorbSpeed" AddV="2"/>
+			<li Name="FabaoMake_SuccessRateAddV" AddV="0.2"/>
+		</Properties>
+	</Modifier> 
+
+	<Modifier Name="QiDown" Type="Normal">
+		<DisplayName>炼器道袍(下)</DisplayName>
+		<Desc>提高炼制法宝品阶+0.2</Desc>
+		<MaxStack>1</MaxStack>
+		<Duration>-1</Duration>
+		<Display>1</Display>
+		<Properties>
+			<li Name="MindStateBaseValue" AddV="10"/>
+			<li Name="FabaoMake_LingInheritRateAddV" AddV="0.2"/>	
+		</Properties>
+	</Modifier> 
+
+	<Modifier Name="XiuXingUp" Type="Normal">
+		<DisplayName>修行道袍(上)</DisplayName>
+		<Desc>修炼速度+15%</Desc>
+		<MaxStack>1</MaxStack>
+		<Duration>-1</Duration>
+		<Display>1</Display>
+		<Properties>
+			<li Name="LingAbsorbSpeed" AddV="2"/>
+			<li Name="DeepPracticeSpeedSpecialCoefficient" AddP="0.15"/>
+		</Properties>
+	</Modifier> 
+
+	<Modifier Name="XiuXingDown" Type="Normal">
+		<DisplayName>修行道袍(下)</DisplayName>
+		<Desc>心境波动降低15%</Desc>
+		<MaxStack>1</MaxStack>
+		<Duration>-1</Duration>
+		<Display>1</Display>
+		<Properties>
+			<li Name="MindStateBaseValue" AddV="10"/>
+			<li Name="SpeedOfMindStateCoefficient" AddP="-0.15"/>	
+		</Properties>
+	</Modifier> 
+
+	<Modifier Name="WaKuang" Type="Normal">
+		<DisplayName>矿工制服</DisplayName>
+		<Desc>对应技能提升10级</Desc>
+		<MaxStack>5</MaxStack>
+		<Duration>-1</Duration>
+		<Display>1</Display>
+		<Skills>
+			<li Name="Mining" Level="6"/>
+		</Skills>
+	</Modifier> 
+	<Modifier Name="YuanDing" Type="Normal">
+		<DisplayName>园丁制服</DisplayName>
+		<Desc>对应技能提升10级</Desc>
+		<MaxStack>5</MaxStack>
+		<Duration>-1</Duration>
+		<Display>1</Display>
+		<Skills>
+			<li Name="Farming" Level="6"/>
+		</Skills>
+	</Modifier> 
+
+	<Modifier Name="JiangShi" Type="Normal">
+		<DisplayName>匠师制服</DisplayName>
+		<Desc>对应技能提升10级</Desc>
+		<MaxStack>5</MaxStack>
+		<Duration>-1</Duration>
+		<Display>1</Display>
+		<Skills>
+			<li Name="Manual" Level="6"/>
+		</Skills>
+	</Modifier> 
+
+	<Modifier Name="ZhuGong" Type="Normal">
+		<DisplayName>筑工制服</DisplayName>
+		<Desc>对应技能提升10级</Desc>
+		<MaxStack>5</MaxStack>
+		<Duration>-1</Duration>
+		<Display>1</Display>
+		<Skills>
+			<li Name="Building" Level="6"/>
+		</Skills>
+	</Modifier> 
+
+	<Modifier Name="WaiJiao" Type="Normal">
+		<DisplayName>外交官制服</DisplayName>
+		<Desc>对应技能提升10级</Desc>
+		<MaxStack>5</MaxStack>
+		<Duration>-1</Duration>
+		<Display>1</Display>
+		<Skills>
+			<li Name="SocialContact" Level="6"/>
+			<li Name="Art" Level="6"/>
+		</Skills>
+	</Modifier> 
+	
+	<Modifier Name="SysTool_NvWaStone" Type="Normal">
+		<DisplayName>女娲石之力</DisplayName>
+		<Desc>大幅提高自然恢复能力。</Desc>
+		<MaxStack>1</MaxStack>
+		<Duration>-1</Duration>
+		<Display>1</Display>
+		<Properties>
+			<li Name="RecoveryPower" AddP="100"/>
+			<li Name="MagicDamageRecoveryPowerAddV" AddV="100"/>			
+		</Properties>				
+	</Modifier> 
+
+	<Modifier Name="SysTool_ShenNongQuadripod" Type="Normal">
+		<DisplayName>神农鼎之力</DisplayName>
+		<Desc>大幅提高治疗成功率和治疗质量。</Desc>
+		<MaxStack>1</MaxStack>
+		<Duration>-1</Duration>
+		<Display>1</Display>
+		<Properties>
+			<li Name="TreatmentExpectQuality" AddP="100"/>
+			<li Name="TreatSuccessChance" AddP="1"/>
+		</Properties>
+	</Modifier>
+
+	<Modifier Name="SysTool_FuXiGuQin1" Type="Normal">
+		<DisplayName>伏羲琴之力</DisplayName>
+		<Desc>大幅提高佩戴者和周围弟子心境和心情。</Desc>
+		<MaxStack>1</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<GlobleModifiers>
+			<li>SysTool_FuXiGuQin2</li>
+		</GlobleModifiers>
+	</Modifier> 
+	
+	<Modifier Name="SysTool_FuXiGuQin2" Type="Normal">
+		<DisplayName>伏羲琴之力</DisplayName>
+		<Desc>受伏羲琴影响，心境和心情得到提高。</Desc>
+		<MaxStack>1</MaxStack>
+		<Duration>-1</Duration>
+		<Display>1</Display>
+		<Properties>
+			<li Name="HappyConsumeConstant" AddP="-0.5"/>
+			<li Name="BaseEmotionAddV" AddV="500"/>
+			<li Name="MindStateBaseValue" AddV="100"/>			
+		</Properties>		
+	</Modifier> 
+	
+	<Modifier Name="SysTool_KunLunMirror" Type="Normal">
+		<DisplayName>昆仑镜之力</DisplayName>
+		<Desc>受昆仑镜影响，修炼速度得到提高。</Desc>
+		<MaxStack>1</MaxStack>
+		<Duration>-1</Duration>
+		<Display>1</Display>
+		<Properties>
+			<li Name="DeepPracticeSpeedSpecialCoefficient" AddP="5"/>	
+		</Properties>		
+	</Modifier> 		
+		
+	<Modifier Name="SysTool_LianYaoPot" Type="Normal">
+		<DisplayName>炼妖壶之力</DisplayName>
+		<Desc>受炼妖壶影响，制作物品的能力和炼制法宝的能力得到提高。</Desc>
+		<MaxStack>1</MaxStack>
+		<Duration>-1</Duration>
+		<Display>1</Display>
+		<Properties>
+			<li Name="FabaoMake_SpeedAddV" AddV="5"/>		
+			<li Name="FabaoMake_LingInheritRateAddV" AddV="1"/>
+			<li Name="FabaoMake_SuccessRateAddV" AddV="1"/>			
+			<li Name="MadeQualityAddValue" AddV="1"/>			
+			<li Name="GlobalEfficiency" AddP="1"/>					
+		</Properties>					
+	</Modifier> 	
+	
+		<Modifier Name="ShenBing_buff1" Type="Normal">
+		<DisplayName>道韵流转</DisplayName>
+		<Desc>神剑持有者竟然领悟了一丝天道，虽然只是沧海一粟，却使你们整个门派受到天道庇护！</Desc>
+		<MaxStack>1</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<GlobleModifiers>
+			<li>ShenBing_buff2</li>
+		</GlobleModifiers>
+	</Modifier> 
+	
+</List></ModifierDefs>

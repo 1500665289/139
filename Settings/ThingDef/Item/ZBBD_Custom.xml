@@ -1,0 +1,54 @@
+<ThingDefs><List>
+	<!--system下的item名称不能随意更改-->
+	<ThingDef Type="Item" Name="Item_LunHui_BoxBase" Parent="MaterialBase">
+		<ThingName>不存在的宝匣</ThingName>
+		<MaxStack>1</MaxStack>
+		<TexPath>Spr\Object\xiangzi.png</TexPath>
+		<Desc>不存在的神秘宝匣，里面存有大量不存在的东西。</Desc>	
+		<Beauty>15</Beauty>	
+		<Rate>12</Rate>
+		<ElementKind>None</ElementKind>
+		<Tags>
+			<Tag Name="_StoneBox" Level="10"/>
+		</Tags>
+		<Flammability>
+			<Flammability>0</Flammability>
+		</Flammability>
+		<Item Lable="Other">
+			<Prices>
+				<TalkType>3</TalkType>
+				<BaseCount>1</BaseCount>
+				<li PriceTag="School">
+					<BuyPrice Value="9999"/>
+					<SalePrice Value="9999" />
+				</li>
+				<li PriceTag="Trade">
+					<BuyPrice Value="9999" />
+					<SalePrice Value="9999" />
+				</li>
+				<li PriceTag="Auction">
+					<BuyPrice Value="9999" />
+					<SalePrice Value="9999" />
+				</li>
+			</Prices>	
+			<NotRandom>1</NotRandom>
+			<FabaoSuffix>匣</FabaoSuffix>
+			<BeMade>
+				<WorkToMake>100</WorkToMake>
+				<CostItems>
+					<Item name = "Item_LingCrystal" count = "100"/>
+				</CostItems>
+			</BeMade>				
+		</Item>
+	</ThingDef>
+
+	<ThingDef Type="Item" Name="Item_LunHui_MaterialBox" Parent="Item_LunHui_BoxBase">
+		<ThingName>不存在的材料匣</ThingName>
+		<Desc>不存在的的神秘宝匣，里面存有大量不存在的神秘材料。</Desc>
+		<StoryBnts>
+			<li Name="打开" Desc="打开不存在的神秘材料匣。" Story="Story_Item_LunHui_MaterialBox" Cost="5" Icon="res/Sprs/ui/icon_hand"/>
+		</StoryBnts>
+	</ThingDef>
+
+
+</List></ThingDefs>

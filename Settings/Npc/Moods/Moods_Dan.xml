@@ -1,0 +1,10 @@
+<MoodDefs><List>
+	<Mood Name="Dan_HappinessMAX">
+		<DisplayName>欲仙欲死</DisplayName>
+		<Desc>身心通畅，恍若神仙，感觉眼前的一切都是如此美好，口水也不自觉的流了出来。</Desc>
+		<StoryDesc>正因极度的快乐而满脸幸福</StoryDesc>
+		<MaxStack>1</MaxStack>
+		<Value>233</Value>
+		<Duration>7</Duration>
+	</Mood>
+</List></MoodDefs>

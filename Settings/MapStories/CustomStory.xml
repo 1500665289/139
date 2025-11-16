@@ -1,0 +1,58 @@
+<Stories><List>	
+<!--系统使用，不能修改-->
+	<Story Name="Story_Item_LunHui_MaterialBox" Parent="BaseFillingStory">
+	    <DisplayName>不存在的材料匣</DisplayName>
+	    <Desc>不存在的神秘宝匣，里面存有大量不存在的神秘材料。</Desc>
+	    <Kind>None</Kind>
+	    <Selections>
+	      <li>
+	        <Display>打开</Display>
+	        <OKResult>
+	        <![CDATA[ 
+	        me:AddMsg("[NAME]开了不存在的材料匣，取出其中的物件。");
+	        me:DropAwardItem("Item_Other_Hulu997",1);
+	        me:DropAwardItem("Item_Other_Hulu998",1);
+	        me:DropAwardItem("Item_Other_Hulu999",1);
+	        me:DropAwardItem("Item_FunPainting999",1);
+	        me:DropAwardItem("Item_FunPoem999",1);
+	        me:DropAwardItem("Item_FunMusic999",1);
+	        me:DropAwardItem("Item_FunChess999",1);
+	        me:DropAwardItem("Item_Other_Zhen999",1);
+	        me:DropAwardItem("Item_Other_Lingluo999",1);
+	        me:DropAwardItem("Item_Other_Lingdang999",1);
+	        me:DropAwardItem("Item_Other_Shanzi999",1);
+	        me:DropAwardItem("Item_Other_Umbrella999",1);
+	        me:DropAwardItem("Item_Other_Zhong999",1);
+	        me:DropAwardItem("Item_Other_Jian999",1);
+	        me:DropAwardItem("Item_Other_Yin999",1);
+	        me:DropAwardItem("Item_Other_Ta999",1);
+	        me:DropAwardItem("Item_Other_Jin999",1);
+	        me:DropAwardItem("Item_Other_Ding999",1);
+	        me:DropAwardItem("Item_Other_Ruyi999",1);
+	        me:DropAwardItem("Item_Other_Jian998",1);
+	        me:DropAwardItem("Item_Other_Futou999",1);
+	        me:DropAwardItem("Item_Other_Jian997",1);
+	        me:DropAwardItem("Item_Other_Gong999",1);
+	        me:DropAwardItem("Item_Other_Dao999",1);
+	        me:DropAwardItem("Item_Other_Fan999",1);
+	        me:DropAwardItem("Item_Other_Zhu999",1);
+	        me:DropAwardItem("Item_Other_Qinglong01",1);
+	        me:DropAwardItem("Item_Other_Zhuque01",1);
+	        me:DropAwardItem("Item_Other_Baihu01",1);
+	        me:DropAwardItem("Item_Other_Xuanwu01",1);
+	        me:DropAwardItem("Item_Other_Juyuan01",1);
+	        me:DropAwardItem("Item_Other_Juweihu01",1);
+	        me:DropAwardItem("Item_Other_Tianzhu01",1);
+	        me:DropAwardItem("Item_Other_Xiezi01",1);
+	        me:DropAwardItem("Item_Other_Hudie01",1);
+	        me:DropAwardItem("Item_Other_Fenshen01",1);
+	        me:DropAwardItem("Item_Other_Fenshen02",1);
+	        me:DropAwardItem("Item_Other_Fenshen03",1);
+	        story:RemoveBindItem();
+	        ]]>   
+	        </OKResult>
+	      </li>
+	    </Selections>
+  	</Story>
+
+</List></Stories>

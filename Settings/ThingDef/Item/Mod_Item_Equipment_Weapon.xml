@@ -1,0 +1,405 @@
+﻿<ThingDefs><List>
+	
+	<ThingDef Type="Item" Name="Item_XuanYuanSword" Parent="WeaponBase">
+	<ThingName>轩辕剑</ThingName>
+	<TexPath>Spr\object\object_XuanYuanSword.png</TexPath>
+	<TexScale>0.25</TexScale>
+	<MaxStack>1</MaxStack>
+	<ElementKind>Jin</ElementKind>	
+	<Desc>由众神采首山之铜为黄帝所铸，后传与夏禹。剑身一面刻日月星辰，一面刻山川草木。剑柄一面书农耕畜养之术，一面书四海一统之策。其内蕴藏无穷之力，为斩妖除魔的神剑。</Desc>
+	<Beauty>15</Beauty>
+	<Rate>12</Rate>
+	<Item Lable="Weapon">
+		<NotRandom>1</NotRandom>	
+		<PhysicalLables>
+			<li>Sharp</li>
+		</PhysicalLables>		
+		<BeMade>
+			<WorkToMake>200</WorkToMake>
+			<Quality>12</Quality>
+			<ArtDesc></ArtDesc>
+			<CostItems>
+					<Item name = "Item_StarEssenceBlock" count = "50"/>
+					<Item name = "Item_DarksteelBlock" count = "100"/>
+					<Item name = "Item_Water" count = "100"/>
+					<Item name = "Item_RoughWoodBlock" count = "1"/>
+			</CostItems>
+		</BeMade> 
+		<Equip>
+			<Damage>200</Damage>
+			<AttackSpeed>1.5</AttackSpeed>
+			<AttackRange>10</AttackRange>
+			<AtkDamage>
+				<li PartKind="Flesh" Name="Jin_XuanYuanSwordLight" Rate="0.3"/>
+				<li PartKind="Flesh" Name="Jin_XuanYuanSwordLight" Rate="0.3"/>
+				<li PartKind="Organ" Name="Jin_XuanYuanSwordLight" Rate="0.4"/>
+			</AtkDamage>
+			<AtkAnis>
+				<li Name="LJpugong1" HitPoint="11"/>
+				<li Name="LJpugong2" HitPoint="9"/>
+				<li Name="LJpugong3" HitPoint="15"/>
+				<li Name="LJpugong4" HitPoint="9"/>
+			</AtkAnis>
+                        <ToolModifier>ShenBing_buff1</ToolModifier>
+			<WeaponKind>Sword</WeaponKind>
+			<ModPath>Mod/Prop/Weapon/weapon_jian6</ModPath>	
+		</Equip>
+	</Item>
+	<Ling>
+		<AddionLing>500</AddionLing>
+		<AddionRadius>10</AddionRadius>
+		<AddionFailing>0.9</AddionFailing>
+		<AddionFailRadius>1</AddionFailRadius>
+		
+		<Attenuation>0.1</Attenuation>
+		<Absorption>10</Absorption>
+		<Accommodate>100</Accommodate>
+	</Ling>			
+	</ThingDef>	
+
+	<ThingDef Type="Item" Name="Item_PanGuAxe" Parent="WeaponBase">
+	<ThingName>盘古斧</ThingName>
+	<TexPath>Spr\object\object_PanGuAxe.png</TexPath>
+	<TexScale>0.2</TexScale>
+	<MaxStack>1</MaxStack>
+	<ElementKind>None</ElementKind>	
+	<Desc>传说天地混沌之初，盘古由睡梦醒来，见天地晦黯，遂拿一巨大之斧劈开天与地，自此才有我们之世界、宇宙。此斧拥有分天开地、穿梭太虚之力，威力不下轩辕剑。</Desc>
+	<Beauty>15</Beauty>
+	<Rate>12</Rate>
+	<Item Lable="Weapon">
+		<NotRandom>1</NotRandom>	
+		<PhysicalLables>
+			<li>Sharp</li>
+		</PhysicalLables>		
+		<BeMade>
+			<WorkToMake>200</WorkToMake>
+			<Quality>12</Quality>
+			<ArtDesc></ArtDesc>
+			<CostItems>
+					<Item name = "Item_StarEssence" count = "50"/>
+					<Item name = "Item_SkyStone" count = "50"/>
+					<Item name = "Item_Water" count = "100"/>
+			</CostItems>
+		</BeMade> 
+		<Equip>
+			<Damage>200</Damage>
+			<AttackSpeed>1.5</AttackSpeed>
+			<AttackRange>1000</AttackRange>
+			<AtkDamage>
+				<li PartKind="Flesh" Name="None_SpacePower" Rate="0.3"/>
+				<li PartKind="Flesh" Name="None_SpacePower" Rate="0.3"/>
+				<li PartKind="Organ" Name="None_SpacePower" Rate="0.4"/>
+			</AtkDamage>
+			<AtkAnis>
+				<li Name="LJpugong1" HitPoint="11"/>
+				<li Name="LJpugong2" HitPoint="9"/>
+				<li Name="LJpugong3" HitPoint="15"/>
+				<li Name="LJpugong4" HitPoint="9"/>
+			</AtkAnis>
+                        <ToolModifier>ShenBing_buff1</ToolModifier>
+			<WeaponKind>Sword</WeaponKind>
+			<ModPath>Mod/Prop/Weapon/weapon_jian8</ModPath>	
+		</Equip>
+	</Item>
+	<Ling>
+		<AddionLing>500</AddionLing>
+		<AddionRadius>10</AddionRadius>
+		<AddionFailing>0.9</AddionFailing>
+		<AddionFailRadius>1</AddionFailRadius>
+		
+		<Attenuation>0.1</Attenuation>
+		<Absorption>10</Absorption>
+		<Accommodate>100</Accommodate>
+	</Ling>	
+	</ThingDef>
+	
+	<ThingDef Type="Item" Name="Item_BingYuanShenSword" Parent="WeaponBase">
+	<ThingName>玄冰神剑</ThingName>
+	<TexPath>Spr\object\object_BingYuanShenjian.png</TexPath>
+	<TexScale>0.25</TexScale>
+	<MaxStack>1</MaxStack>
+	<ElementKind>Shui</ElementKind>	
+	<Desc>由千年玄冰铸造而成，触及者浑身血脉停滞,连仙魔都无法破解。</Desc>
+	<Beauty>15</Beauty>
+	<Rate>12</Rate>
+	<Item Lable="Weapon">
+                <FabaoSuffix>剑</FabaoSuffix>
+		<NotRandom>1</NotRandom>	
+		<PhysicalLables>
+			<li>Sharp</li>
+		</PhysicalLables>		
+		<BeMade>
+			<WorkToMake>200</WorkToMake>
+			<Quality>10</Quality>
+			<ArtDesc></ArtDesc>
+			<CostItems>
+					<Item name = "Item_SilverBlock1" count = "50"/>
+					<Item name = "Item_SilverBlock" count = "200"/>
+					<Item name = "Item_Water" count = "100"/>
+					<Item name = "Item_RoughWoodBlock" count = "1"/>
+			</CostItems>
+		</BeMade> 
+		<Equip>
+			<Damage>200</Damage>
+			<AttackSpeed>1.5</AttackSpeed>
+			<AttackRange>10</AttackRange>
+			<AtkDamage>
+				<li PartKind="Flesh" Name="Shui_XuanBingLight" Rate="0.5"/>
+				<li PartKind="Flesh" Name="Shui_XuanBingLight" Rate="0.5"/>
+				<li PartKind="Organ" Name="Shui_XuanBingLight" Rate="0.8"/>
+			</AtkDamage>
+			<AtkAnis>
+				<li Name="LJpugong1" HitPoint="11"/>
+				<li Name="LJpugong2" HitPoint="9"/>
+				<li Name="LJpugong3" HitPoint="15"/>
+				<li Name="LJpugong4" HitPoint="9"/>
+			</AtkAnis>
+                        <ToolModifier>ShenBing_buff1</ToolModifier>
+			<WeaponKind>Sword</WeaponKind>
+			<ModPath>Mod/Prop/Weapon/weapon_jian5</ModPath>	
+		</Equip>
+	</Item>
+	<Ling>
+		<AddionLing>200</AddionLing>
+		<AddionRadius>10</AddionRadius>
+		<AddionFailing>0.1</AddionFailing>
+		<AddionFailRadius>1</AddionFailRadius>
+		
+		<Attenuation>0.1</Attenuation>
+		<Absorption>100</Absorption>
+		<Accommodate>100000</Accommodate>
+	</Ling>	
+	</ThingDef>
+	
+	<ThingDef Type="Item" Name="Item_XianMoSword" Parent="WeaponBase">
+	<ThingName>仙魔剑</ThingName>
+	<TexPath>Spr\object\object_xianmojian.png</TexPath>
+	<TexScale>0.25</TexScale>
+	<MaxStack>1</MaxStack>
+	<ElementKind>None</ElementKind>	
+	<Desc>由仙魔之血铸造而成，传闻拥有此剑者可灭仙魔。</Desc>
+	<Beauty>15</Beauty>
+	<Rate>12</Rate>
+	<Item Lable="Weapon">
+		<NotRandom>1</NotRandom>	
+		<PhysicalLables>
+			<li>Sharp</li>
+		</PhysicalLables>		
+		<BeMade>
+			<WorkToMake>200</WorkToMake>
+			<Quality>10</Quality>
+			<ArtDesc></ArtDesc>
+			<CostItems>
+					<Item name = "Item_LingCrystalBlock" count = "50"/>
+					<Item name = "Item_LingStone" count = "100"/>
+					<Item name = "Item_Water" count = "100"/>
+					<Item name = "Item_RoughWoodBlock" count = "1"/>
+			</CostItems>
+		</BeMade> 
+		<Equip>
+			<Damage>200</Damage>
+			<AttackSpeed>1.5</AttackSpeed>
+			<AttackRange>10</AttackRange>
+			<AtkDamage>
+				<li PartKind="Flesh" Name="None_XianShenSwordLight" Rate="0.5"/>
+				<li PartKind="Flesh" Name="None_XianShenSwordLight" Rate="0.5"/>
+				<li PartKind="Organ" Name="None_XianShenSwordLight" Rate="0.8"/>
+			</AtkDamage>
+			<AtkAnis>
+				<li Name="LJpugong1" HitPoint="11"/>
+				<li Name="LJpugong2" HitPoint="9"/>
+				<li Name="LJpugong3" HitPoint="15"/>
+				<li Name="LJpugong4" HitPoint="9"/>
+			</AtkAnis>
+                        <ToolModifier>ShenBing_buff1</ToolModifier>
+			<WeaponKind>Sword</WeaponKind>
+			<ModPath>Mod/Prop/Weapon/weapon_jian7</ModPath>	
+		</Equip>
+	</Item>
+	<Ling>
+		<AddionLing>500</AddionLing>
+		<AddionRadius>10</AddionRadius>
+		<AddionFailing>0.9</AddionFailing>
+		<AddionFailRadius>1</AddionFailRadius>
+		
+		<Attenuation>0.1</Attenuation>
+		<Absorption>10</Absorption>
+		<Accommodate>100</Accommodate>
+	</Ling>			
+	</ThingDef>
+		
+	<ThingDef Type="Item" Name="Item_FanMieSword" Parent="WeaponBase">
+	<ThingName>梵灭神剑</ThingName>
+	<TexPath>Spr\object\object_FanMieShenJian.png</TexPath>
+	<TexScale>0.25</TexScale>
+	<MaxStack>1</MaxStack>
+	<ElementKind>Huo</ElementKind>	
+	<Desc>由天外火陨铸造而成，剑体坚硬犀利,一剑落,湖水沸腾。</Desc>
+	<Beauty>15</Beauty>
+	<Rate>12</Rate>
+	<Item Lable="Weapon">
+                <FabaoSuffix>剑</FabaoSuffix>
+		<NotRandom>1</NotRandom>	
+		<PhysicalLables>
+			<li>Sharp</li>
+		</PhysicalLables>		
+		<BeMade>
+			<WorkToMake>200</WorkToMake>
+			<Quality>10</Quality>
+			<ArtDesc></ArtDesc>
+			<CostItems>
+					<Item name = "Item_CopperBlock1" count = "50"/>
+					<Item name = "Item_CopperBlock" count = "100"/>
+					<Item name = "Item_Water" count = "100"/>
+					<Item name = "Item_RoughWoodBlock" count = "1"/>
+			</CostItems>
+		</BeMade> 
+		<Equip>
+			<Damage>200</Damage>
+			<AttackSpeed>1.5</AttackSpeed>
+			<AttackRange>10</AttackRange>
+			<AtkDamage>
+				<li PartKind="Flesh" Name="Huo_VisceralBurnL" Rate="0.5"/>
+				<li PartKind="Flesh" Name="Huo_VisceralBurnL" Rate="0.5"/>
+				<li PartKind="Organ" Name="Huo_VisceralBurnL" Rate="0.8"/>
+			</AtkDamage>
+			<AtkAnis>
+				<li Name="LJpugong1" HitPoint="11"/>
+				<li Name="LJpugong2" HitPoint="9"/>
+				<li Name="LJpugong3" HitPoint="15"/>
+				<li Name="LJpugong4" HitPoint="9"/>
+			</AtkAnis>
+                        <ToolModifier>ShenBing_buff1</ToolModifier>
+			<WeaponKind>Sword</WeaponKind>
+			<ModPath>Mod/Prop/Weapon/weapon_jian10</ModPath>	
+		</Equip>
+	</Item>
+	<Ling>
+		<AddionLing>500</AddionLing>
+		<AddionRadius>10</AddionRadius>
+		<AddionFailing>0.9</AddionFailing>
+		<AddionFailRadius>1</AddionFailRadius>
+		
+		<Attenuation>0.1</Attenuation>
+		<Absorption>10</Absorption>
+		<Accommodate>100</Accommodate>
+	</Ling>	
+	</ThingDef>
+			
+	<ThingDef Type="Item" Name="Item_NingTuSword" Parent="WeaponBase">
+	<ThingName>凝土神剑</ThingName>
+	<TexPath>Spr\object\object_NingTuShenjian.png</TexPath>
+	<TexScale>0.25</TexScale>
+	<MaxStack>1</MaxStack>
+	<ElementKind>Tu</ElementKind>	
+	<Desc>由万年石髓铸造，万斤之重，非天生神力者不可用。</Desc>
+	<Beauty>15</Beauty>
+	<Rate>12</Rate>
+	<Item Lable="Weapon">
+                <FabaoSuffix>剑</FabaoSuffix>
+		<NotRandom>1</NotRandom>	
+		<PhysicalLables>
+			<li>Sharp</li>
+		</PhysicalLables>		
+		<BeMade>
+			<WorkToMake>200</WorkToMake>
+			<Quality>10</Quality>
+			<ArtDesc></ArtDesc>
+			<CostItems>
+					<Item name = "Item_SkyStoneBlock" count = "50"/>
+					<Item name = "Item_JadeBlock" count = "100"/>
+					<Item name = "Item_Water" count = "100"/>
+					<Item name = "Item_RoughWoodBlock" count = "1"/>
+			</CostItems>
+		</BeMade> 
+		<Equip>
+			<Damage>200</Damage>
+			<AttackSpeed>1.5</AttackSpeed>
+			<AttackRange>10</AttackRange>
+			<AtkDamage>
+				<li PartKind="Flesh" Name="Tu_Petrifaction3" Rate="0.5"/>
+				<li PartKind="Flesh" Name="Tu_Petrifaction3" Rate="0.5"/>
+				<li PartKind="Organ" Name="Tu_Petrifaction3" Rate="0.8"/>
+			</AtkDamage>
+			<AtkAnis>
+				<li Name="LJpugong1" HitPoint="11"/>
+				<li Name="LJpugong2" HitPoint="9"/>
+				<li Name="LJpugong3" HitPoint="15"/>
+				<li Name="LJpugong4" HitPoint="9"/>
+			</AtkAnis>
+                        <ToolModifier>ShenBing_buff1</ToolModifier>
+			<WeaponKind>Sword</WeaponKind>
+			<ModPath>Mod/Prop/Weapon/weapon_jian8</ModPath>	
+		</Equip>
+	</Item>
+	<Ling>
+		<AddionLing>500</AddionLing>
+		<AddionRadius>10</AddionRadius>
+		<AddionFailing>0.9</AddionFailing>
+		<AddionFailRadius>1</AddionFailRadius>
+		
+		<Attenuation>0.1</Attenuation>
+		<Absorption>10</Absorption>
+		<Accommodate>100</Accommodate>
+	</Ling>	
+	</ThingDef>
+
+	<ThingDef Type="Item" Name="Item_QingMuSword" Parent="WeaponBase">
+	<ThingName>青木神剑</ThingName>
+	<TexPath>Spr\object\object_QingMuShenSword.png</TexPath>
+	<TexScale>0.25</TexScale>
+	<MaxStack>1</MaxStack>
+	<ElementKind>Mu</ElementKind>	
+	<Desc>用传说中的青龙木打造而成，使用者可用青龙之力灭敌。</Desc>
+	<Beauty>15</Beauty>
+	<Rate>12</Rate>
+	<Item Lable="Weapon">
+                <FabaoSuffix>剑</FabaoSuffix>
+		<NotRandom>1</NotRandom>	
+		<PhysicalLables>
+			<li>Sharp</li>
+		</PhysicalLables>		
+		<BeMade>
+			<WorkToMake>200</WorkToMake>
+			<Quality>10</Quality>
+			<ArtDesc></ArtDesc>
+			<CostItems>
+					<Item name = "Item_ParasolWoodBlock" count = "50"/>
+					<Item name = "Item_HardWoodBlock" count = "100"/>
+					<Item name = "Item_Water" count = "100"/>
+					<Item name = "Item_RoughWoodBlock" count = "1"/>
+			</CostItems>
+		</BeMade> 
+		<Equip>
+			<Damage>200</Damage>
+			<AttackSpeed>1.5</AttackSpeed>
+			<AttackRange>10</AttackRange>
+			<AtkDamage>
+				<li PartKind="Flesh" Name="Mu_Corrosion1" Rate="0.5"/>
+				<li PartKind="Flesh" Name="Mu_Corrosion1" Rate="0.5"/>
+				<li PartKind="Organ" Name="Mu_Corrosion1" Rate="0.8"/>
+			</AtkDamage>
+			<AtkAnis>
+				<li Name="LJpugong1" HitPoint="11"/>
+				<li Name="LJpugong2" HitPoint="9"/>
+				<li Name="LJpugong3" HitPoint="15"/>
+				<li Name="LJpugong4" HitPoint="9"/>
+			</AtkAnis>
+                        <ToolModifier>ShenBing_buff1</ToolModifier>
+			<WeaponKind>Sword</WeaponKind>
+			<ModPath>Mod/Prop/Weapon/weapon_jian8</ModPath>	
+		</Equip>
+	</Item>
+	<Ling>
+		<AddionLing>500</AddionLing>
+		<AddionRadius>10</AddionRadius>
+		<AddionFailing>0.9</AddionFailing>
+		<AddionFailRadius>1</AddionFailRadius>
+		
+		<Attenuation>0.1</Attenuation>
+		<Absorption>10</Absorption>
+		<Accommodate>100</Accommodate>
+	</Ling>	
+	</ThingDef>
+	
+</List></ThingDefs>
