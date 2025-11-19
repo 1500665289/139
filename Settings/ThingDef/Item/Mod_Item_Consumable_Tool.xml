@@ -20,8 +20,8 @@
 			<Quality>12</Quality>
 			<ArtDesc></ArtDesc>
 			<CostItems>
-					<Item name = "Item_SkyStone" count = "10"/>
-					<Item name = "Item_LingCrystal" count = "100"/>
+					<Item name = "Item_SkyStone" count = "20"/>
+					<Item name = "Item_LingCrystal" count = "200"/>
 			</CostItems>			
 		</BeMade>
 		<Equip>
@@ -61,14 +61,14 @@
 			<Quality>12</Quality>
 			<ArtDesc></ArtDesc>
 			<CostItems>
-					<Item name = "Item_StarEssence" count = "50"/>
-					<Item name = "Item_JinEssence" count = "5"/>
-					<Item name = "Item_MuEssence" count = "5"/>
-					<Item name = "Item_ShuiEssence" count = "5"/>				
-					<Item name = "Item_HuoEssence" count = "5"/>	
-					<Item name = "Item_TuEssence" count = "5"/>	
-					<Item name = "Item_Healroot" count = "200"/>					
-					<Item name = "Item_Water" count = "100"/>
+					<Item name = "Item_StarEssence" count = "100"/>
+					<Item name = "Item_JinEssence" count = "10"/>
+					<Item name = "Item_MuEssence" count = "10"/>
+					<Item name = "Item_ShuiEssence" count = "10"/>				
+					<Item name = "Item_HuoEssence" count = "10"/>	
+					<Item name = "Item_TuEssence" count = "10"/>	
+					<Item name = "Item_Healroot" count = "400"/>					
+					<Item name = "Item_Water" count = "200"/>
 			</CostItems>			
 		</BeMade>
 		<Equip>
@@ -108,9 +108,9 @@
 			<Quality>12</Quality>
 			<ArtDesc></ArtDesc>
 			<CostItems>
-					<Item name = "Item_SkyStone" count = "100"/>
-					<Item name = "Item_Cotton" count = "1000"/>
-					<Item name = "Item_LingCrystal" count = "20"/>
+					<Item name = "Item_SkyStone" count = "200"/>
+					<Item name = "Item_Cotton" count = "2000"/>
+					<Item name = "Item_LingCrystal" count = "40"/>
 			</CostItems>			
 		</BeMade>
 		<Equip>
@@ -150,9 +150,9 @@
 			<Quality>12</Quality>
 			<ArtDesc></ArtDesc>
 			<CostItems>
-					<Item name = "Item_Jade" count = "1000"/>
-					<Item name = "Item_StarEssence" count = "20"/>
-					<Item name = "Item_LingCrystal" count = "20"/>
+					<Item name = "Item_Jade" count = "2000"/>
+					<Item name = "Item_StarEssence" count = "40"/>
+					<Item name = "Item_LingCrystal" count = "40"/>
 			</CostItems>			
 		</BeMade>
 		<Equip>
@@ -192,8 +192,8 @@
 			<Quality>12</Quality>
 			<ArtDesc></ArtDesc>
 			<CostItems>
-					<Item name = "Item_StarEssence" count = "90"/>
-					<Item name = "Item_LingCrystal" count = "20"/>
+					<Item name = "Item_StarEssence" count = "180"/>
+					<Item name = "Item_LingCrystal" count = "40"/>
 			</CostItems>			
 		</BeMade>
 		<Equip>

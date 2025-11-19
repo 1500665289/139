@@ -38,6 +38,13 @@
 		</PhysicalLables>
 		<BeMade>
 			<Quality>100</Quality>
+
+
+			<CostItems>
+					<Item name = "Item_LingStone" count = "1000"/>
+			</CostItems>
+
+
 		</BeMade> 
 		<Equip>
 			<ToolModifier>SysTool_GuiBiTianJie</ToolModifier>

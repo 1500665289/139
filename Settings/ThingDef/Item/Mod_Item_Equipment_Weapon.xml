@@ -19,10 +19,10 @@
 			<Quality>12</Quality>
 			<ArtDesc></ArtDesc>
 			<CostItems>
-					<Item name = "Item_StarEssenceBlock" count = "50"/>
-					<Item name = "Item_DarksteelBlock" count = "100"/>
-					<Item name = "Item_Water" count = "100"/>
-					<Item name = "Item_RoughWoodBlock" count = "1"/>
+					<Item name = "Item_StarEssenceBlock" count = "100"/>
+					<Item name = "Item_DarksteelBlock" count = "200"/>
+					<Item name = "Item_Water" count = "200"/>
+					<Item name = "Item_RoughWoodBlock" count = "200"/>
 			</CostItems>
 		</BeMade> 
 		<Equip>
@@ -76,9 +76,9 @@
 			<Quality>12</Quality>
 			<ArtDesc></ArtDesc>
 			<CostItems>
-					<Item name = "Item_StarEssence" count = "50"/>
-					<Item name = "Item_SkyStone" count = "50"/>
-					<Item name = "Item_Water" count = "100"/>
+					<Item name = "Item_StarEssence" count = "100"/>
+					<Item name = "Item_SkyStone" count = "100"/>
+					<Item name = "Item_Water" count = "200"/>
 			</CostItems>
 		</BeMade> 
 		<Equip>
@@ -133,10 +133,10 @@
 			<Quality>10</Quality>
 			<ArtDesc></ArtDesc>
 			<CostItems>
-					<Item name = "Item_SilverBlock1" count = "50"/>
-					<Item name = "Item_SilverBlock" count = "200"/>
-					<Item name = "Item_Water" count = "100"/>
-					<Item name = "Item_RoughWoodBlock" count = "1"/>
+					<Item name = "Item_SilverBlock1" count = "100"/>
+					<Item name = "Item_SilverBlock" count = "400"/>
+					<Item name = "Item_Water" count = "200"/>
+					<Item name = "Item_RoughWoodBlock" count = "200"/>
 			</CostItems>
 		</BeMade> 
 		<Equip>
@@ -190,10 +190,10 @@
 			<Quality>10</Quality>
 			<ArtDesc></ArtDesc>
 			<CostItems>
-					<Item name = "Item_LingCrystalBlock" count = "50"/>
-					<Item name = "Item_LingStone" count = "100"/>
-					<Item name = "Item_Water" count = "100"/>
-					<Item name = "Item_RoughWoodBlock" count = "1"/>
+					<Item name = "Item_LingCrystalBlock" count = "100"/>
+					<Item name = "Item_LingStone" count = "200"/>
+					<Item name = "Item_Water" count = "200"/>
+					<Item name = "Item_RoughWoodBlock" count = "200"/>
 			</CostItems>
 		</BeMade> 
 		<Equip>
@@ -248,10 +248,10 @@
 			<Quality>10</Quality>
 			<ArtDesc></ArtDesc>
 			<CostItems>
-					<Item name = "Item_CopperBlock1" count = "50"/>
-					<Item name = "Item_CopperBlock" count = "100"/>
-					<Item name = "Item_Water" count = "100"/>
-					<Item name = "Item_RoughWoodBlock" count = "1"/>
+					<Item name = "Item_CopperBlock1" count = "100"/>
+					<Item name = "Item_CopperBlock" count = "200"/>
+					<Item name = "Item_Water" count = "200"/>
+					<Item name = "Item_RoughWoodBlock" count = "200"/>
 			</CostItems>
 		</BeMade> 
 		<Equip>
@@ -306,10 +306,10 @@
 			<Quality>10</Quality>
 			<ArtDesc></ArtDesc>
 			<CostItems>
-					<Item name = "Item_SkyStoneBlock" count = "50"/>
-					<Item name = "Item_JadeBlock" count = "100"/>
-					<Item name = "Item_Water" count = "100"/>
-					<Item name = "Item_RoughWoodBlock" count = "1"/>
+					<Item name = "Item_SkyStoneBlock" count = "100"/>
+					<Item name = "Item_JadeBlock" count = "200"/>
+					<Item name = "Item_Water" count = "200"/>
+					<Item name = "Item_RoughWoodBlock" count = "200"/>
 			</CostItems>
 		</BeMade> 
 		<Equip>
@@ -364,10 +364,10 @@
 			<Quality>10</Quality>
 			<ArtDesc></ArtDesc>
 			<CostItems>
-					<Item name = "Item_ParasolWoodBlock" count = "50"/>
-					<Item name = "Item_HardWoodBlock" count = "100"/>
-					<Item name = "Item_Water" count = "100"/>
-					<Item name = "Item_RoughWoodBlock" count = "1"/>
+					<Item name = "Item_ParasolWoodBlock" count = "100"/>
+					<Item name = "Item_HardWoodBlock" count = "200"/>
+					<Item name = "Item_Water" count = "200"/>
+					<Item name = "Item_RoughWoodBlock" count = "200"/>
 			</CostItems>
 		</BeMade> 
 		<Equip>

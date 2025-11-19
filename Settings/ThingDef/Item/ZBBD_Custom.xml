@@ -36,7 +36,7 @@
 			<BeMade>
 				<WorkToMake>100</WorkToMake>
 				<CostItems>
-					<Item name = "Item_LingCrystal" count = "100"/>
+					<Item name = "Item_LingCrystal" count = "1000"/>
 				</CostItems>
 			</BeMade>				
 		</Item>

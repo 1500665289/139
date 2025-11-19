@@ -16,7 +16,7 @@
 			</StuffCategories>
 			<CostStuffCount>100</CostStuffCount>
 			<CostItems>
-					<Item name = "Item_LingStone" count = "1"/>
+					<Item name = "Item_LingStone" count = "100"/>
 					
 			</CostItems>
 		</BeMade>
@@ -52,7 +52,7 @@
 			</StuffCategories>
 			<CostStuffCount>1000</CostStuffCount>
 			<CostItems>
-					<Item name = "Item_LingStone" count = "1"/>
+					<Item name = "Item_LingStone" count = "100"/>
 					
 			</CostItems>
 		</BeMade>
@@ -88,7 +88,7 @@
 			</StuffCategories>
 			<CostStuffCount>1000</CostStuffCount>
 			<CostItems>
-					<Item name = "Item_LingStone" count = "1"/>
+					<Item name = "Item_LingStone" count = "100"/>
 					
 			</CostItems>
 		</BeMade>
@@ -124,7 +124,7 @@
 			</StuffCategories>
 			<CostStuffCount>1000</CostStuffCount>
 			<CostItems>
-					<Item name = "Item_LingStone" count = "1"/>
+					<Item name = "Item_LingStone" count = "100"/>
 					
 			</CostItems>
 		</BeMade>
@@ -160,7 +160,7 @@
 			</StuffCategories>
 			<CostStuffCount>100</CostStuffCount>
 			<CostItems>
-					<Item name = "Item_LingStone" count = "1"/>
+					<Item name = "Item_LingStone" count = "100"/>
 					
 			</CostItems>
 		</BeMade>
@@ -196,7 +196,7 @@
 			</StuffCategories>
 			<CostStuffCount>100</CostStuffCount>
 			<CostItems>
-					<Item name = "Item_LingStone" count = "1"/>
+					<Item name = "Item_LingStone" count = "100"/>
 					
 			</CostItems>
 		</BeMade>
@@ -232,7 +232,7 @@
 			</StuffCategories>
 			<CostStuffCount>100</CostStuffCount>
 			<CostItems>
-					<Item name = "Item_LingStone" count = "1"/>
+					<Item name = "Item_LingStone" count = "100"/>
 					
 			</CostItems>
 		</BeMade>
@@ -268,7 +268,7 @@
 			</StuffCategories>
 			<CostStuffCount>100</CostStuffCount>
 			<CostItems>
-					<Item name = "Item_LingStone" count = "1"/>
+					<Item name = "Item_LingStone" count = "100"/>
 					
 			</CostItems>
 		</BeMade>
@@ -304,7 +304,7 @@
 			</StuffCategories>
 			<CostStuffCount>100</CostStuffCount>
 			<CostItems>
-					<Item name = "Item_LingStone" count = "1"/>
+					<Item name = "Item_LingStone" count = "100"/>
 					
 			</CostItems>
 		</BeMade>

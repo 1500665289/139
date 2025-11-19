@@ -19,7 +19,8 @@
 			<BeMade>
 				<WorkToMake>20</WorkToMake>
 				<CostItems>
-					<Item name = "Item_Ginkgo" count = "1"/>
+					<Item name = "Item_Ginkgo" count = "10"/>
+                                        <Item name = "Item_LingStone" count = "100"/>
 				</CostItems>
 			</BeMade> 
 		</Item>
@@ -58,7 +59,8 @@
 			<BeMade>
 				<WorkToMake>20</WorkToMake>
 				<CostItems>
-					<Item name = "Item_Ginkgo" count = "1"/>
+					<Item name = "Item_Ginkgo" count = "10"/>
+<Item name = "Item_LingStone" count = "100"/>
 				</CostItems>
 			</BeMade> 
 		</Item>
@@ -87,7 +89,9 @@
 			<BeMade>
 				<WorkToMake>20</WorkToMake>
 				<CostItems>
-					<Item name = "Item_Ginkgo" count = "1"/>
+					<Item name = "Item_Ginkgo" count = "100"/>
+<Item name = "Item_LingStone" count = "100"/>
+
 				</CostItems>
 			</BeMade> 
 		</Item>
@@ -134,16 +138,18 @@
 			<BeMade>
 				<WorkToMake>20</WorkToMake>
 				<CostItems>
-					<Item name = "Item_Mushroom" count = "1"/>
-					<Item name = "Item_Lotusroot" count = "1"/>
-					<Item name = "Item_BoarMeat" count = "1"/>
-					<Item name = "Item_FrogMeat" count = "1"/>
-					<Item name = "Item_TurtleMeat" count = "1"/>
-					<Item name = "Item_BearMeat" count = "1"/>
-					<Item name = "Item_Beef" count = "1"/>
-					<Item name = "Item_RabbitMeat" count = "1"/>
-					<Item name = "Item_ChickenMeat" count = "1"/>
-					<Item name = "Item_SnakeMeat" count = "1"/>
+					<Item name = "Item_Mushroom" count = "10"/>
+					<Item name = "Item_Lotusroot" count = "10"/>
+					<Item name = "Item_BoarMeat" count = "10"/>
+					<Item name = "Item_FrogMeat" count = "10"/>
+					<Item name = "Item_TurtleMeat" count = "10"/>
+					<Item name = "Item_BearMeat" count = "10"/>
+					<Item name = "Item_Beef" count = "10"/>
+					<Item name = "Item_RabbitMeat" count = "10"/>
+					<Item name = "Item_ChickenMeat" count = "10"/>
+					<Item name = "Item_SnakeMeat" count = "10"/>
+<Item name = "Item_LingStone" count = "100"/>
+
 				</CostItems>
 			</BeMade>
 		</Item>
@@ -172,7 +178,9 @@
 			<BeMade>
 				<WorkToMake>800</WorkToMake>
 				<CostItems>
-					<Item name = "Item_Ginkgo" count = "5"/>
+					<Item name = "Item_Ginkgo" count = "50"/>
+<Item name = "Item_LingStone" count = "100"/>
+
 				</CostItems>
 			</BeMade> 
 		</Item>
@@ -200,7 +208,9 @@
 			<BeMade>
 				<WorkToMake>20</WorkToMake>
 				<CostItems>
-					<Item name = "Item_Ginkgo" count = "1"/>
+					<Item name = "Item_Ginkgo" count = "100"/>
+<Item name = "Item_LingStone" count = "1000"/>
+
 				</CostItems>
 			</BeMade> 
 		</Item>
@@ -229,7 +239,9 @@
 			<BeMade>
 				<WorkToMake>20</WorkToMake>
 				<CostItems>
-					<Item name = "Item_Ginkgo" count = "1"/>
+					<Item name = "Item_Ginkgo" count = "100"/>
+<Item name = "Item_LingStone" count = "1000"/>
+
 				</CostItems>
 			</BeMade> 
 		</Item>
@@ -258,7 +270,9 @@
 			<BeMade>
 				<WorkToMake>20</WorkToMake>
 				<CostItems>
-					<Item name = "Item_Ginkgo" count = "1"/>
+					<Item name = "Item_Ginkgo" count = "100"/>
+<Item name = "Item_LingStone" count = "1000"/>
+
 				</CostItems>
 			</BeMade> 
 		</Item>
@@ -287,7 +301,9 @@
 			<BeMade>
 				<WorkToMake>20</WorkToMake>
 				<CostItems>
-					<Item name = "Item_Ginkgo" count = "1"/>
+					<Item name = "Item_Ginkgo" count = "100"/>
+<Item name = "Item_LingStone" count = "100"/>
+
 				</CostItems>
 			</BeMade>
 		</Item>
@@ -313,20 +329,22 @@
 				<WorkToMake>100</WorkToMake>
 				<Quality>100</Quality>
 				<CostItems>
-					<Item name = "Item_ThunderAir" count = "1"/>
-					<Item name = "Item_EarthEssence_1" count = "1"/>
-					<Item name = "Item_EarthEssence1_1" count = "1"/>
-					<Item name = "Item_JinEssence" count = "1"/>
-					<Item name = "Item_MuEssence" count = "1"/>
-					<Item name = "Item_ShuiEssence" count = "1"/>
-					<Item name = "Item_HuoEssence" count = "1"/>
-					<Item name = "Item_TuEssence" count = "1"/>
-					<Item name = "Item_LifeStream" count = "1"/>
-					<Item name = "Item_Ginseng" count = "9"/>
-					<Item name = "Item_GanodermaLucidum" count = "9"/>
-					<Item name = "Item_Mint" count = "9"/>
-					<Item name = "Item_MagicHerb" count = "9"/>
-					<Item name = "Item_Water" count = "9"/>
+					<Item name = "Item_ThunderAir" count = "10"/>
+					<Item name = "Item_EarthEssence_1" count = "10"/>
+					<Item name = "Item_EarthEssence1_1" count = "10"/>
+					<Item name = "Item_JinEssence" count = "10"/>
+					<Item name = "Item_MuEssence" count = "10"/>
+					<Item name = "Item_ShuiEssence" count = "10"/>
+					<Item name = "Item_HuoEssence" count = "10"/>
+					<Item name = "Item_TuEssence" count = "10"/>
+					<Item name = "Item_LifeStream" count = "10"/>
+					<Item name = "Item_Ginseng" count = "90"/>
+					<Item name = "Item_GanodermaLucidum" count = "90"/>
+					<Item name = "Item_Mint" count = "90"/>
+					<Item name = "Item_MagicHerb" count = "90"/>
+					<Item name = "Item_Water" count = "90"/>
+<Item name = "Item_LingStone" count = "1000"/>
+
 				</CostItems>
 			</BeMade>
 		</Item>
