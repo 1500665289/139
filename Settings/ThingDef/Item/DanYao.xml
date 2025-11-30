@@ -19,8 +19,8 @@
 			<BeMade>
 				<WorkToMake>20</WorkToMake>
 				<CostItems>
-					<Item name = "Item_Ginkgo" count = "10"/>
-                                        <Item name = "Item_LingStone" count = "100"/>
+					<Item name = "Item_Ginkgo" count = "100"/>
+                                        <Item name = "Item_LingStone" count = "1000"/>
 				</CostItems>
 			</BeMade> 
 		</Item>
@@ -59,8 +59,8 @@
 			<BeMade>
 				<WorkToMake>20</WorkToMake>
 				<CostItems>
-					<Item name = "Item_Ginkgo" count = "10"/>
-<Item name = "Item_LingStone" count = "100"/>
+					<Item name = "Item_Ginkgo" count = "210"/>
+<Item name = "Item_LingStone" count = "2000"/>
 				</CostItems>
 			</BeMade> 
 		</Item>
@@ -89,8 +89,8 @@
 			<BeMade>
 				<WorkToMake>20</WorkToMake>
 				<CostItems>
-					<Item name = "Item_Ginkgo" count = "100"/>
-<Item name = "Item_LingStone" count = "100"/>
+					<Item name = "Item_Ginkgo" count = "300"/>
+<Item name = "Item_LingStone" count = "3100"/>
 
 				</CostItems>
 			</BeMade> 
@@ -148,7 +148,7 @@
 					<Item name = "Item_RabbitMeat" count = "10"/>
 					<Item name = "Item_ChickenMeat" count = "10"/>
 					<Item name = "Item_SnakeMeat" count = "10"/>
-<Item name = "Item_LingStone" count = "100"/>
+<Item name = "Item_LingStone" count = "2100"/>
 
 				</CostItems>
 			</BeMade>
@@ -178,8 +178,8 @@
 			<BeMade>
 				<WorkToMake>800</WorkToMake>
 				<CostItems>
-					<Item name = "Item_Ginkgo" count = "50"/>
-<Item name = "Item_LingStone" count = "100"/>
+					<Item name = "Item_Ginkgo" count = "250"/>
+<Item name = "Item_LingStone" count = "2100"/>
 
 				</CostItems>
 			</BeMade> 
@@ -208,8 +208,8 @@
 			<BeMade>
 				<WorkToMake>20</WorkToMake>
 				<CostItems>
-					<Item name = "Item_Ginkgo" count = "100"/>
-<Item name = "Item_LingStone" count = "1000"/>
+					<Item name = "Item_Ginkgo" count = "1000"/>
+<Item name = "Item_LingStone" count = "10000"/>
 
 				</CostItems>
 			</BeMade> 
@@ -239,8 +239,8 @@
 			<BeMade>
 				<WorkToMake>20</WorkToMake>
 				<CostItems>
-					<Item name = "Item_Ginkgo" count = "100"/>
-<Item name = "Item_LingStone" count = "1000"/>
+					<Item name = "Item_Ginkgo" count = "1000"/>
+<Item name = "Item_LingStone" count = "10000"/>
 
 				</CostItems>
 			</BeMade> 
@@ -270,8 +270,8 @@
 			<BeMade>
 				<WorkToMake>20</WorkToMake>
 				<CostItems>
-					<Item name = "Item_Ginkgo" count = "100"/>
-<Item name = "Item_LingStone" count = "1000"/>
+					<Item name = "Item_Ginkgo" count = "1000"/>
+<Item name = "Item_LingStone" count = "10000"/>
 
 				</CostItems>
 			</BeMade> 
@@ -301,8 +301,8 @@
 			<BeMade>
 				<WorkToMake>20</WorkToMake>
 				<CostItems>
-					<Item name = "Item_Ginkgo" count = "100"/>
-<Item name = "Item_LingStone" count = "100"/>
+					<Item name = "Item_Ginkgo" count = "1000"/>
+<Item name = "Item_LingStone" count = "1000"/>
 
 				</CostItems>
 			</BeMade>
@@ -343,7 +343,7 @@
 					<Item name = "Item_Mint" count = "90"/>
 					<Item name = "Item_MagicHerb" count = "90"/>
 					<Item name = "Item_Water" count = "90"/>
-<Item name = "Item_LingStone" count = "1000"/>
+<Item name = "Item_LingStone" count = "10000"/>
 
 				</CostItems>
 			</BeMade>
