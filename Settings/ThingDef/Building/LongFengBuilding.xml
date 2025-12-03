@@ -165,23 +165,13 @@
 			<CanMakeRoom>0</CanMakeRoom>
 			<NoFight>1</NoFight>
 			<BeMade>
-				<WorkToMake>180000</WorkToMake>
+				<WorkToMake>330</WorkToMake>
 				<Quality>0</Quality>
-				<CostStuffCount>0</CostStuffCount>
-				<CostList>
-					<li>
-						<ThingDef>Item_LingShi</ThingDef>
-						<Count>100000</Count>
-					</li>
-					<li>
-						<ThingDef>Item_Wood</ThingDef>
-						<Count>100000</Count>
-					</li>
-					<li>
-						<ThingDef>Item_Stone</ThingDef>
-						<Count>100000</Count>
-					</li>
-				</CostList>
+				<ArtDesc>0</ArtDesc>
+				<StuffCategories>
+					<Stuff name = "RockBlock"/>
+				</StuffCategories>
+				<CostStuffCount>6660</CostStuffCount>
 			</BeMade>
 		</Building>
 	</ThingDef>
@@ -279,23 +269,13 @@
 			<CanMakeRoom>0</CanMakeRoom>
 			<NoFight>1</NoFight>
 			<BeMade>
-				<WorkToMake>180000</WorkToMake>
+				<WorkToMake>330</WorkToMake>
 				<Quality>0</Quality>
-				<CostStuffCount>0</CostStuffCount>
-				<CostList>
-					<li>
-						<ThingDef>Item_LingShi</ThingDef>
-						<Count>100000</Count>
-					</li>
-					<li>
-						<ThingDef>Item_Wood</ThingDef>
-						<Count>100000</Count>
-					</li>
-					<li>
-						<ThingDef>Item_Stone</ThingDef>
-						<Count>100000</Count>
-					</li>
-				</CostList>
+				<ArtDesc>0</ArtDesc>
+				<StuffCategories>
+					<Stuff name = "RockBlock"/>
+				</StuffCategories>
+				<CostStuffCount>6660</CostStuffCount>
 			</BeMade>
 		</Building>
 	</ThingDef>
