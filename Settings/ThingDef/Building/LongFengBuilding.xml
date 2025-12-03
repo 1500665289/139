@@ -1,11 +1,12 @@
-<ThingDefs><List>
+<ThingDefs>
+<List>
 
-		<ThingDef Type="Building" Name="Building_XiongfengDan" Parent="FurnitureBase"><!--凤凰蛋一-->
+	<ThingDef Type="Building" Name="Building_XiongfengDan" Parent="FurnitureBase"><!--凤凰蛋一-->
 		<TileID>0</TileID>
 		<ThingName>凶凤之卵</ThingName>
 		<Desc>凶凤之卵，极热且发着耀眼的光芒。</Desc>
 		<SelectAble>1</SelectAble>
-				<Tags>
+		<Tags>
 			<Tag Name="Excavation" Level="1"/>
 		</Tags>
 		<Flammability>
@@ -164,14 +165,28 @@
 			<CanMakeRoom>0</CanMakeRoom>
 			<NoFight>1</NoFight>
 			<BeMade>
-				<WorkToMake>0</WorkToMake>
+				<WorkToMake>180000</WorkToMake>
 				<Quality>0</Quality>
 				<CostStuffCount>0</CostStuffCount>
+				<CostList>
+					<li>
+						<ThingDef>Item_LingShi</ThingDef>
+						<Count>100000</Count>
+					</li>
+					<li>
+						<ThingDef>Item_Wood</ThingDef>
+						<Count>100000</Count>
+					</li>
+					<li>
+						<ThingDef>Item_Stone</ThingDef>
+						<Count>100000</Count>
+					</li>
+				</CostList>
 			</BeMade>
 		</Building>
 	</ThingDef>
 	
-		<ThingDef Type="Building" Name="Building_ZhulongDan" Parent="FurnitureBase">
+	<ThingDef Type="Building" Name="Building_ZhulongDan" Parent="FurnitureBase">
 		<TileID>0</TileID>
 		<ThingName>烛龙之卵</ThingName>
 		<Desc>烛龙之卵</Desc>
@@ -264,9 +279,23 @@
 			<CanMakeRoom>0</CanMakeRoom>
 			<NoFight>1</NoFight>
 			<BeMade>
-				<WorkToMake>0</WorkToMake>
+				<WorkToMake>180000</WorkToMake>
 				<Quality>0</Quality>
 				<CostStuffCount>0</CostStuffCount>
+				<CostList>
+					<li>
+						<ThingDef>Item_LingShi</ThingDef>
+						<Count>100000</Count>
+					</li>
+					<li>
+						<ThingDef>Item_Wood</ThingDef>
+						<Count>100000</Count>
+					</li>
+					<li>
+						<ThingDef>Item_Stone</ThingDef>
+						<Count>100000</Count>
+					</li>
+				</CostList>
 			</BeMade>
 		</Building>
 	</ThingDef>
