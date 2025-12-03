@@ -43,18 +43,13 @@
 		<CanMakeRoom>0</CanMakeRoom>
 		<WorkAnimation>produce</WorkAnimation>
 		<BeMade>
+			<WorkToMake>30</WorkToMake>
 			<Quality>0</Quality>
-			<WorkToMake>3000</WorkToMake>
-			<CostList>
-				<li>
-					<ThingDef>Item_Wood</ThingDef>
-					<Count>100</Count>
-				</li>
-				<li>
-					<ThingDef>Item_Stone</ThingDef>
-					<Count>100</Count>
-				</li>
-			</CostList>
+			<ArtDesc>0</ArtDesc>
+			<StuffCategories>
+				<Stuff name = "RockBlock"/>
+			</StuffCategories>
+			<CostStuffCount>666</CostStuffCount>
 		</BeMade>
 		<ProduceKind>Handwork</ProduceKind>
 			<Produces>
