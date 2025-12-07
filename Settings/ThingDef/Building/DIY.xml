@@ -4,7 +4,7 @@
 	<ThingDef Type="Building" Name="KanBuJianDeKeng" Parent="ProductionBase">
 	<ThingName>看不见的坑</ThingName>	
 	<Desc>用来制造不存在的东西。</Desc>
-	<TexPath>res/Sprs/buildingnew/building_PharmacyPlace1a</TexPath>
+	<TexPath>Spr/object/lingzhu.png</TexPath>
 	<TileID>271</TileID>
 	<SelectAble>1</SelectAble>
 	<CastShadow>0</CastShadow>
