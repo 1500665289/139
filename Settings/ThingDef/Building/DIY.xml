@@ -43,6 +43,7 @@
 		<TerrainAffordanceNeeded>Ground</TerrainAffordanceNeeded>
 		<CanMakeRoom>0</CanMakeRoom>
 		<WorkAnimation>produce</WorkAnimation>
+	  <WorkTexPath>res/Sprs/buildingnew/building_fazuo01</WorkTexPath>
 		<BeMade>
 			<WorkToMake>30</WorkToMake>
 			<Quality>0</Quality>
